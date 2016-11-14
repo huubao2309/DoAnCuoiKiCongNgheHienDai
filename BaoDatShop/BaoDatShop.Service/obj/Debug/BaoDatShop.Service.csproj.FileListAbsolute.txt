@@ -1,0 +1,11 @@
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.csprojResolveAssemblyReference.cache
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.pdb
