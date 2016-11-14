@@ -1,9 +1,9 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Xml.Linq;
-using TeduShop.Model.Abstract;
+using BaoDatShop.Model.Abstract;
 
-namespace TeduShop.Model.Models
+namespace BaoDatShop.Model.Models
 {
     [Table("Products")]
     public class Product : Auditable
