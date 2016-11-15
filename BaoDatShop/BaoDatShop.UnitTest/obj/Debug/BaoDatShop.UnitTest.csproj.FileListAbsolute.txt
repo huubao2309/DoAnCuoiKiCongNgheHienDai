@@ -33,3 +33,5 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\System.Web.WebPages.
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\obj\Debug\BaoDatShop.UnitTest.csprojResolveAssemblyReference.cache
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\obj\Debug\BaoDatShop.UnitTest.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\obj\Debug\BaoDatShop.UnitTest.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.xml

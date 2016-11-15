@@ -9,3 +9,5 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.csprojResolveAssemblyReference.cache
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.xml
