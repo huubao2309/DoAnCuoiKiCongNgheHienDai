@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.AspNet.Identity.EntityFramework;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -8,13 +9,14 @@ using BaoDatShop.Model.Models;
 
 namespace BaoDatShop.Data
 {
-    public class BaoDatShopDbContext : DbContext
+    public class BaoDatShopDbContext : IdentityDbContext<ApplicationUser>
     {
-        public BaoDatShopDbContext() : base("BaoDatShopConnection")
+        public BaoDatShopDbContext()
+            : base("BaoDatShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
-        
+
         public DbSet<Footer> Footers { set; get; }
         public DbSet<Menu> Menus { set; get; }
         public DbSet<MenuGroup> MenuGroups { set; get; }
@@ -37,10 +39,15 @@ namespace BaoDatShop.Data
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
         public DbSet<Error> Errors { set; get; }
 
+        public static BaoDatShopDbContext Create()
+        {
+            return new BaoDatShopDbContext();
+        }
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
         }
     }
 }
