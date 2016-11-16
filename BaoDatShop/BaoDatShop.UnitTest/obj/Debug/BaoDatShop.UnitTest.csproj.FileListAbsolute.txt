@@ -35,3 +35,10 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\obj\Debug\BaoDatShop.UnitTest.
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\obj\Debug\BaoDatShop.UnitTest.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.dll.config
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Castle.Core.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.SqlServer.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Moq.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Castle.Core.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Moq.xml

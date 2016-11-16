@@ -7,4 +7,3 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.csprojResolveAssemblyReference.cache

@@ -1,6 +1,8 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using BaoDatShop.Model.Abstract;
+using System.Collections;
+using System.Collections.Generic;
 
 namespace BaoDatShop.Model.Models
 {
@@ -37,5 +39,7 @@ namespace BaoDatShop.Model.Models
 
         [ForeignKey("CategoryID")]
         public virtual PostCategory PostCategory { set; get; }
+
+        public virtual IEnumerable<PostTag> PostTag { set; get; }
     }
 }
