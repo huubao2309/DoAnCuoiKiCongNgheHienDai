@@ -36,6 +36,14 @@
     <Reference Include="EntityFramework.SqlServer">
       <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Identity.EntityFramework, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Identity.EntityFramework.2.2.1\lib\net45\Microsoft.AspNet.Identity.EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
@@ -57,9 +65,22 @@
     <Compile Include="Migrations\201611150305341_InitialDB.Designer.cs">
       <DependentUpon>201611150305341_InitialDB.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611151704429_AddErrorTable.cs" />
+    <Compile Include="Migrations\201611151704429_AddErrorTable.Designer.cs">
+      <DependentUpon>201611151704429_AddErrorTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161603042_Intergrate-AspnetIdentity.cs" />
+    <Compile Include="Migrations\201611161603042_Intergrate-AspnetIdentity.Designer.cs">
+      <DependentUpon>201611161603042_Intergrate-AspnetIdentity.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611161621084_Changkey.cs" />
+    <Compile Include="Migrations\201611161621084_Changkey.Designer.cs">
+      <DependentUpon>201611161621084_Changkey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaoDatShopDbContext.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\MenuRepository.cs" />
@@ -97,6 +118,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201611150305341_InitialDB.resx">
       <DependentUpon>201611150305341_InitialDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611151704429_AddErrorTable.resx">
+      <DependentUpon>201611151704429_AddErrorTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161603042_Intergrate-AspnetIdentity.resx">
+      <DependentUpon>201611161603042_Intergrate-AspnetIdentity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611161621084_Changkey.resx">
+      <DependentUpon>201611161621084_Changkey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
