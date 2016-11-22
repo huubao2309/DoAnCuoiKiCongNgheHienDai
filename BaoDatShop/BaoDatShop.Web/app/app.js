@@ -1,7 +1,11 @@
 ﻿/// <reference path="/Assets/admin/libs/angular/angular.js" />
 
 (function () {
-    angular.module('baodatshop', ['baodatshop.products', 'baodatshop.common']).config(config);
+    angular.module('baodatshop',
+        ['baodatshop.products',
+            'baodatshop.product_categories',
+            'baodatshop.common'])
+        .config(config);
 
     config.$inject = ['$stateProvider', '$urlRouterProvider'];
 
