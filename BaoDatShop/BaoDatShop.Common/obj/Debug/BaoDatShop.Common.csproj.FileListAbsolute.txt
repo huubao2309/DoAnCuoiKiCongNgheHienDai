@@ -3,3 +3,10 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.pdb
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.pdb
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\bin\Debug\AutoMapper.dll
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Common\bin\Debug\AutoMapper.xml
