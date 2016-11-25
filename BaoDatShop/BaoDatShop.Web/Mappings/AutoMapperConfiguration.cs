@@ -15,6 +15,7 @@ namespace BaoDatShop.Web.Mappings
             Mapper.CreateMap<ProductCategory, ProductCategoryViewModel>();
             Mapper.CreateMap<Product, ProductViewModel>();
             Mapper.CreateMap<ProductTag, ProductTagViewModel>();
+            Mapper.CreateMap<Footer, FooterViewModel>();
         }
 
     }
