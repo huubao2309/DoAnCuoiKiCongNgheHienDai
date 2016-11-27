@@ -27,7 +27,6 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.AspNet.Ide
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.dll.config
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\AutoMapper.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Common.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Data.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Model.dll
@@ -43,7 +42,6 @@ C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Commo
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Data.pdb
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Model.pdb
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.Service.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\AutoMapper.xml
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Castle.Core.xml
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.xml
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\EntityFramework.SqlServer.xml

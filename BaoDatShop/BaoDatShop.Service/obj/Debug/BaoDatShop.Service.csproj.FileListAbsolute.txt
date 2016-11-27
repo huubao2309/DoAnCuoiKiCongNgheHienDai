@@ -15,22 +15,3 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Iden
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.csprojResolveAssemblyReference.cache
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\AutoMapper.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Service\bin\Debug\AutoMapper.xml

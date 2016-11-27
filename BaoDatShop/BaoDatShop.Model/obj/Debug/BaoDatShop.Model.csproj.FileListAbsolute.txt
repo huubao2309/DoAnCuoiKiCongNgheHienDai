@@ -12,19 +12,3 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identi
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.csprojResolveAssemblyReference.cache
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll.config
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.csprojResolveAssemblyReference.cache
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\AutoMapper.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Model\bin\Debug\AutoMapper.xml
