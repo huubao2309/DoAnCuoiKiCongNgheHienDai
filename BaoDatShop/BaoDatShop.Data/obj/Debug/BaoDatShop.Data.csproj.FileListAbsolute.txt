@@ -22,3 +22,4 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identit
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.IntergrateAspnetIdentity.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
