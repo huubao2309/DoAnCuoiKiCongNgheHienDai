@@ -24,6 +24,7 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.AspNet.Ide
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.dll.config
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.UnitTest\bin\Debug\BaoDatShop.UnitTest.pdb

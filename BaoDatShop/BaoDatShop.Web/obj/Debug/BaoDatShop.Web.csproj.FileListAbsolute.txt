@@ -67,6 +67,7 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Owin.
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\CKFinder.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll.config
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.pdb
@@ -79,6 +80,7 @@ C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Common.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Data.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Model.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Service.dll
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\CKFinder.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.SqlServer.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Core.dll
