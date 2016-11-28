@@ -77,6 +77,10 @@
     <Compile Include="Migrations\201611161621084_Changkey.Designer.cs">
       <DependentUpon>201611161621084_Changkey.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611230802053_AddTagField.cs" />
+    <Compile Include="Migrations\201611230802053_AddTagField.Designer.cs">
+      <DependentUpon>201611230802053_AddTagField.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaoDatShopDbContext.cs" />
@@ -127,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611161621084_Changkey.resx">
       <DependentUpon>201611161621084_Changkey.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611230802053_AddTagField.resx">
+      <DependentUpon>201611230802053_AddTagField.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
