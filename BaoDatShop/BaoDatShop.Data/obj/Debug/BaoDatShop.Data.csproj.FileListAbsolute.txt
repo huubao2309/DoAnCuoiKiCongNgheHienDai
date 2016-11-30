@@ -23,3 +23,5 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migratio
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddMoreQuantitty.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.addforeignkey.resources

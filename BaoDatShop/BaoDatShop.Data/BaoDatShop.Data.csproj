@@ -85,6 +85,14 @@
     <Compile Include="Migrations\201611281551168_AddContentToSlide.Designer.cs">
       <DependentUpon>201611281551168_AddContentToSlide.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611302009431_AddMoreQuantitty.cs" />
+    <Compile Include="Migrations\201611302009431_AddMoreQuantitty.Designer.cs">
+      <DependentUpon>201611302009431_AddMoreQuantitty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201611302148205_addforeignkey.cs" />
+    <Compile Include="Migrations\201611302148205_addforeignkey.Designer.cs">
+      <DependentUpon>201611302148205_addforeignkey.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="BaoDatShopDbContext.cs" />
@@ -141,6 +149,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611281551168_AddContentToSlide.resx">
       <DependentUpon>201611281551168_AddContentToSlide.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611302009431_AddMoreQuantitty.resx">
+      <DependentUpon>201611302009431_AddMoreQuantitty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611302148205_addforeignkey.resx">
+      <DependentUpon>201611302148205_addforeignkey.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
