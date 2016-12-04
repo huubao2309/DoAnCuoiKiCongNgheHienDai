@@ -68,3 +68,5 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\CKFinder.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BotDetect.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BotDetect.Web.Mvc.dll

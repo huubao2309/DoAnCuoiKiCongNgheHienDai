@@ -26,3 +26,4 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migratio
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddMoreQuantitty.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.addforeignkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.ContactDetail.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Feedback.resources
