@@ -25,6 +25,7 @@
             CreateSlide(context);
             //  This method will be called after migrating to the latest version.
             CreatePage(context);
+            CreateContactDetail(context);
 
 
         }
@@ -130,6 +131,43 @@
 
                     };
                     context.Pages.Add(page);
+                    context.SaveChanges();
+                }
+                catch (DbEntityValidationException ex)
+                {
+                    foreach (var eve in ex.EntityValidationErrors)
+                    {
+                        Trace.WriteLine($"Entity of type \"{eve.Entry.Entity.GetType().Name}\" in state \"{eve.Entry.State}\" has the following validation error.");
+                        foreach (var ve in eve.ValidationErrors)
+                        {
+                            Trace.WriteLine($"- Property: \"{ve.PropertyName}\", Error: \"{ve.ErrorMessage}\"");
+                        }
+                    }
+                }
+
+            }
+        }
+
+        private void CreateContactDetail(BaoDatShopDbContext context)
+        {
+            if (context.ContactDetails.Count() == 0)
+            {
+                try
+                {
+                    var contactDetail = new BaoDatShop.Model.Models.ContactDetail()
+                    {
+                        Name = "Shop thời trang Bảo Đạt",
+                        Address = "227 Nguyễn Văn Cừ, Quận 5, TP.Hồ Chí Minh",
+                        Email = "huubao2309@gmail.com",
+                        Lat = 10.762617,
+                        Lng= 106.682335,
+                        Phone = "0979313803",
+                        Website = "http://baodat.com.vn",
+                        Other = "",
+                        Status = true
+
+                    };
+                    context.ContactDetails.Add(contactDetail);
                     context.SaveChanges();
                 }
                 catch (DbEntityValidationException ex)
