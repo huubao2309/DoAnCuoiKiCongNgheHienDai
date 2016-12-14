@@ -22,6 +22,7 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identit
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.IntergrateAspnetIdentity.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll.config
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.pdb
@@ -43,6 +44,7 @@ C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migr
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.IntergrateAspnetIdentity.resources
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
+C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csproj.GenerateResource.Cache
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.dll
 C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.pdb
