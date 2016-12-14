@@ -52,6 +52,7 @@ namespace BaoDatShop.Web.Models
         public string Tags { set; get; }
 
         public int Quantity { set; get; }
+        public int OriginalPrice { set; get; }
         public virtual ProductCategoryViewModel ProductCategory { set; get; }
     }
 }

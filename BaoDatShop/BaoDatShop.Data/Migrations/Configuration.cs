@@ -16,7 +16,7 @@
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(BaoDatShop.Data.BaoDatShopDbContext context)
@@ -158,11 +158,11 @@
                     {
                         Name = "Shop thời trang Bảo Đạt",
                         Address = "227 Nguyễn Văn Cừ, Quận 5, TP.Hồ Chí Minh",
-                        Email = "huubao2309@gmail.com",
-                        Lat = 10.762617,
-                        Lng= 106.682335,
+                        Email = "baodatshop@gmail.com",
+                        Lat = 10.762796,
+                        Lng= 106.682357,
                         Phone = "0979313803",
-                        Website = "http://baodat.com.vn",
+                        Website = "http://baodatshop.com.vn",
                         Other = "",
                         Status = true
 

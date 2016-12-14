@@ -3,7 +3,10 @@
 (function () {
     angular.module('baodatshop',
         ['baodatshop.products',
+         'baodatshop.application_groups',
          'baodatshop.product_categories',
+         'baodatshop.application_roles',
+         'baodatshop.application_users',
          'baodatshop.common'])
         .config(config)
         .config(configAuthentication);

@@ -11,8 +11,7 @@ namespace BaoDatShop.Data
 {
     public class BaoDatShopDbContext : IdentityDbContext<ApplicationUser>
     {
-        public BaoDatShopDbContext()
-            : base("BaoDatShopConnection")
+        public BaoDatShopDbContext() : base("BaoDatShopConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
@@ -36,10 +35,17 @@ namespace BaoDatShop.Data
 
         public DbSet<Tag> Tags { set; get; }
 
+   
+
         public DbSet<VisitorStatistic> VisitorStatistics { set; get; }
         public DbSet<Error> Errors { set; get; }
         public DbSet<ContactDetail> ContactDetails { set; get; }
         public DbSet<Feedback> Feedbacks { set; get; }
+
+        public DbSet<ApplicationGroup> ApplicationGroups { set; get; }
+        public DbSet<ApplicationRole> ApplicationRoles { set; get; }
+        public DbSet<ApplicationRoleGroup> ApplicationRoleGroups { set; get; }
+        public DbSet<ApplicationUserGroup> ApplicationUserGroups { set; get; }
 
         public static BaoDatShopDbContext Create()
         {
@@ -48,8 +54,11 @@ namespace BaoDatShop.Data
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {
-            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId });
-            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId);
+            builder.Entity<IdentityUserRole>().HasKey(i => new { i.UserId, i.RoleId }).ToTable("ApplicationUserRoles");
+            builder.Entity<IdentityUserLogin>().HasKey(i => i.UserId).ToTable("ApplicationUserLogins");
+            builder.Entity<IdentityRole>().ToTable("ApplicationRoles");
+            builder.Entity<IdentityUserClaim>().HasKey(i => i.UserId).ToTable("ApplicationUserClaims");
+
         }
     }
 }

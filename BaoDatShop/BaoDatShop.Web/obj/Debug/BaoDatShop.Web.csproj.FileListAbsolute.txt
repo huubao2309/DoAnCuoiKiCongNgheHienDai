@@ -3,7 +3,6 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Web.Infrastructure.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Helpers.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.dll
@@ -22,7 +21,6 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Razor.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Deployment.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Razor.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.xml
