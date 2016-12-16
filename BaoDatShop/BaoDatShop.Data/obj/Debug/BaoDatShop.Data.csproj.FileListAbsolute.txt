@@ -2,28 +2,24 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll.conf
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Common.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.SqlServer.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.SqlServer.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csprojResolveAssemblyReference.cache
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.InitialDB.resources
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csproj.GenerateResource.Cache
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddErrorTable.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Common.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.SqlServer.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csprojResolveAssemblyReference.cache
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.InitialDB.resources
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddErrorTable.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.IntergrateAspnetIdentity.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
-<<<<<<< HEAD
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddMoreQuantitty.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.addforeignkey.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.ContactDetail.resources
@@ -33,30 +29,7 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migratio
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddGroupUser.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.ChangeOrderDetail.resources
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddGroupUser1.resources
-=======
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll.config
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Data.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Common.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.SqlServer.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Common.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\BaoDatShop.Model.pdb
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\EntityFramework.SqlServer.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csprojResolveAssemblyReference.cache
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.InitialDB.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddErrorTable.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.IntergrateAspnetIdentity.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.Changkey.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddTagField.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddContentToSlide.resources
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csproj.GenerateResource.Cache
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.dll
-C:\Users\hamin\Desktop\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.pdb
->>>>>>> origin/cnm_hmdat
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csproj.GenerateResource.Cache
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.pdb
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.RevenuesStatisticSP.resources

@@ -3,15 +3,11 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-<<<<<<< HEAD
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.csprojResolveAssemblyReference.cache
-=======
->>>>>>> origin/cnm_hmdat
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
+D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb

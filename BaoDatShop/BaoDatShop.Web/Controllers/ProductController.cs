@@ -4,10 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-<<<<<<< HEAD
 using System.Web.Script.Serialization;
-=======
->>>>>>> origin/cnm_hmdat
 using BaoDatShop.Common;
 using BaoDatShop.Model.Models;
 using BaoDatShop.Service;
@@ -28,7 +25,6 @@ namespace BaoDatShop.Web.Controllers
         // GET: Product
         public ActionResult Detail(int productId)
         {
-<<<<<<< HEAD
             var productModel = _productService.GetById(productId);
             var viewModel = Mapper.Map<Product, ProductViewModel>(productModel);
 
@@ -47,16 +43,6 @@ namespace BaoDatShop.Web.Controllers
             int pageSize = int.Parse(ConfigHelper.GetByKey("PageSize"));
             int totalRow = 0;
             var productModel = _productService.GetListProductByCategoryIdPaging(id, page, pageSize, sort, out totalRow);
-=======
-            return View();
-        }
-
-        public ActionResult Category(int id, int page = 1)
-        {
-            int pageSize = int.Parse(ConfigHelper.GetByKey("PageSize"));
-            int totalRow = 0;
-            var productModel = _productService.GetListProductByCategoryIdPaging(id, page, pageSize, out totalRow);
->>>>>>> origin/cnm_hmdat
             var productViewModel = Mapper.Map<IEnumerable<Product>, IEnumerable<ProductViewModel>>(productModel);
             int totalPage = (int)Math.Ceiling((double)totalRow / pageSize);
 
@@ -73,7 +59,6 @@ namespace BaoDatShop.Web.Controllers
 
             return View(paginationSet);
         }
-<<<<<<< HEAD
         public ActionResult Search(string keyword, int page = 1, string sort = "")
         {
             int pageSize = int.Parse(ConfigHelper.GetByKey("PageSize"));
@@ -122,7 +107,5 @@ namespace BaoDatShop.Web.Controllers
                 data = model
             }, JsonRequestBehavior.AllowGet);
         }
-=======
->>>>>>> origin/cnm_hmdat
     }
 }

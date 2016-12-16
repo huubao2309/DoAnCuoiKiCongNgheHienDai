@@ -43,8 +43,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Autofac, Version=4.2.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
-      <HintPath>..\packages\Autofac.4.2.0\lib\net45\Autofac.dll</HintPath>
+    <Reference Include="Antlr3.Runtime, Version=3.5.0.2, Culture=neutral, PublicKeyToken=eb42632606e9261f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Antlr.3.5.0.2\lib\Antlr3.Runtime.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Autofac, Version=4.2.1.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
+      <HintPath>..\packages\Autofac.4.2.1\lib\net45\Autofac.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="Autofac.Integration.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da, processorArchitecture=MSIL">
@@ -55,21 +59,18 @@
       <HintPath>..\packages\Autofac.WebApi2.4.0.1\lib\net45\Autofac.Integration.WebApi.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="AutoMapper, Version=4.2.1.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
-      <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
+    <Reference Include="AutoMapper, Version=5.2.0.0, Culture=neutral, PublicKeyToken=be96cd2c38ef1005, processorArchitecture=MSIL">
+      <HintPath>..\packages\AutoMapper.5.2.0\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
-<<<<<<< HEAD
-    <Reference Include="BotDetect, Version=4.0.0.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Captcha.4.0.1\lib\net45\BotDetect.dll</HintPath>
+    <Reference Include="BotDetect, Version=4.1.0.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Captcha.4.1.0\lib\net45\BotDetect.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="BotDetect.Web.Mvc, Version=4.0.0.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
-      <HintPath>..\packages\Captcha.4.0.1\lib\net45\BotDetect.Web.Mvc.dll</HintPath>
+    <Reference Include="BotDetect.Web.Mvc, Version=4.1.0.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
+      <HintPath>..\packages\Captcha.4.1.0\lib\net45\BotDetect.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
-=======
->>>>>>> origin/cnm_hmdat
     <Reference Include="CKFinder, Version=2.6.0.2792, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\CKFinder.dll</HintPath>
@@ -101,21 +102,21 @@
       <HintPath>..\packages\Microsoft.Owin.Host.SystemWeb.3.0.1\lib\net45\Microsoft.Owin.Host.SystemWeb.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.2.1.0\lib\net45\Microsoft.Owin.Security.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.3.0.1\lib\net45\Microsoft.Owin.Security.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.Cookies, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.2.1.0\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security.Cookies, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Microsoft.Owin.Security.OAuth, Version=2.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.2.1.0\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
+    <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="Owin">
       <HintPath>..\packages\Owin.1.0\lib\net40\Owin.dll</HintPath>
@@ -127,8 +128,8 @@
     <Reference Include="System.Drawing" />
     <Reference Include="System.IO.Compression" />
     <Reference Include="System.Net.Http.Formatting, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.5.2.3\lib\net45\System.Net.Http.Formatting.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Numerics" />
     <Reference Include="System.Web.DynamicData" />
@@ -138,27 +139,26 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
-<<<<<<< HEAD
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+      <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http.Owin, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
-=======
+    <Reference Include="System.Web.Http.WebHost, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.2.3\lib\net45\System.Web.Http.WebHost.dll</HintPath>
       <Private>True</Private>
     </Reference>
-    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
-    </Reference>
->>>>>>> origin/cnm_hmdat
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Razor, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -189,47 +189,20 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
-<<<<<<< HEAD
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
-    <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
-=======
-    </Reference>
-    <Reference Include="System.Net.Http.WebRequest">
-    </Reference>
-    <Reference Include="System.Web.Optimization">
-      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
-    </Reference>
->>>>>>> origin/cnm_hmdat
     <Reference Include="System.Xml.Linq" />
-    <Reference Include="WebGrease">
+    <Reference Include="WebGrease, Version=1.6.5135.21930, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
       <Private>True</Private>
-      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
-    </Reference>
-    <Reference Include="Antlr3.Runtime">
-      <Private>True</Private>
-      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Reference Include="Newtonsoft.Json">
-      <HintPath>..\packages\Newtonsoft.Json.5.0.6\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web.Http.WebHost">
-      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.5.0.0\lib\net45\System.Web.Http.WebHost.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\AccountController.cs" />
-<<<<<<< HEAD
     <Compile Include="Api\ApplicationGroupController.cs" />
     <Compile Include="Api\ApplicationRoleController.cs" />
     <Compile Include="Api\ApplicationUserController.cs" />
-=======
->>>>>>> origin/cnm_hmdat
     <Compile Include="Api\HomeController.cs" />
     <Compile Include="Api\PostCategoryController.cs" />
     <Compile Include="Api\ProductCategoryController.cs" />
@@ -245,18 +218,12 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
-<<<<<<< HEAD
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
-=======
-    <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PostController.cs" />
-    <Compile Include="Controllers\ProductController.cs" />
->>>>>>> origin/cnm_hmdat
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -264,7 +231,6 @@
     <Compile Include="Infrastructure\Core\PaginationSet.cs" />
     <Compile Include="Infrastructure\Extensions\EntityExtensions.cs" />
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
-<<<<<<< HEAD
     <Compile Include="Models\ApplicationGroupViewModel.cs" />
     <Compile Include="Models\ApplicationRoleViewModel.cs" />
     <Compile Include="Models\ApplicationUserViewModel.cs" />
@@ -276,28 +242,20 @@
     <Compile Include="Models\OrderDetailViewModel.cs" />
     <Compile Include="Models\OrderViewModel.cs" />
     <Compile Include="Models\PageViewModel.cs" />
-=======
-    <Compile Include="Models\FooterViewModel.cs" />
-    <Compile Include="Models\HomeViewModel.cs" />
->>>>>>> origin/cnm_hmdat
     <Compile Include="Models\PostCategoryViewModel.cs" />
     <Compile Include="Models\PostTagViewModel.cs" />
     <Compile Include="Models\PostViewModel.cs" />
     <Compile Include="Models\ProductCategoryViewModel.cs" />
     <Compile Include="Models\ProductTagViewModel.cs" />
     <Compile Include="Models\ProductViewModel.cs" />
-<<<<<<< HEAD
     <Compile Include="Models\RegisterViewModel.cs" />
     <Compile Include="Models\ShoppingCartViewModel.cs" />
-=======
->>>>>>> origin/cnm_hmdat
     <Compile Include="Models\SlideViewModel.cs" />
     <Compile Include="Models\TagViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
-<<<<<<< HEAD
     <Content Include="app\components\application_groups\applicationGroupAddController.js" />
     <Content Include="app\components\application_groups\applicationGroupAddView.html" />
     <Content Include="app\components\application_groups\applicationGroupEditController.js" />
@@ -319,8 +277,6 @@
     <Content Include="app\components\application_users\applicationUserListController.js" />
     <Content Include="app\components\application_users\applicationUserListView.html" />
     <Content Include="app\components\application_users\applicationUsers.module.js" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="app\components\home\homeController.js" />
     <Content Include="app\components\home\homeView.html" />
     <Content Include="app\components\home\rootController.js" />
@@ -339,10 +295,7 @@
     <Content Include="app\components\product_categories\productCategoryEditView.html" />
     <Content Include="app\components\product_categories\productCategoryListController.js" />
     <Content Include="app\components\product_categories\productCategoryListView.html" />
-<<<<<<< HEAD
     <Content Include="app\shared\directives\asDateDirective.js" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="app\shared\directives\pagerDirective.html" />
     <Content Include="app\shared\directives\pagerDirective.js" />
     <Content Include="app\shared\filters\statusFilter.js" />
@@ -477,11 +430,8 @@
     <Content Include="Assets\admin\libs\bootstrap\js\tooltip.js" />
     <Content Include="Assets\admin\libs\bootstrap\js\transition.js" />
     <Content Include="Assets\admin\libs\bootstrap\package.js" />
-<<<<<<< HEAD
     <Content Include="Assets\admin\libs\checklist-model\checklist-model.js" />
     <Content Include="Assets\admin\libs\checklist-model\LICENSE.txt" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\ckeditor\adapters\jquery.js" />
     <Content Include="Assets\admin\libs\ckeditor\ckeditor.js" />
     <Content Include="Assets\admin\libs\ckeditor\config.js" />
@@ -3770,7 +3720,6 @@
     <Content Include="Assets\admin\libs\ckfinder\skins\v1\uipanel.css" />
     <Content Include="Assets\admin\libs\ckfinder\translations.txt" />
     <Content Include="Assets\admin\libs\fastclick\lib\fastclick.js" />
-<<<<<<< HEAD
     <Content Include="Assets\admin\libs\jquery-ui\.gitignore" />
     <Content Include="Assets\admin\libs\jquery-ui\AUTHORS.txt" />
     <Content Include="Assets\admin\libs\jquery-ui\jquery-ui.js" />
@@ -4590,8 +4539,6 @@
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_fi.js" />
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_nl.js" />
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_pt.js" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\jquery\AUTHORS.txt" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.js" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.min.js" />
@@ -4695,13 +4642,10 @@
     <Content Include="Assets\admin\libs\jquery\src\var\support.js" />
     <Content Include="Assets\admin\libs\jquery\src\var\toString.js" />
     <Content Include="Assets\admin\libs\jquery\src\wrap.js" />
-<<<<<<< HEAD
     <Content Include="Assets\admin\libs\mustache\mustache.js" />
     <Content Include="Assets\admin\libs\mustache\mustache.min.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.txt" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\ng-ckeditor\.gitignore" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\1.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\css\bootstrap.css" />
@@ -4937,7 +4881,6 @@
     <Content Include="Assets\admin\libs\ngBootbox\examples\index.html" />
     <Content Include="Assets\admin\libs\ngBootbox\gulpfile.js" />
     <Content Include="Assets\admin\libs\ngBootbox\ngBootbox.js" />
-<<<<<<< HEAD
     <Content Include="Assets\admin\libs\numeral\.gitignore" />
     <Content Include="Assets\admin\libs\numeral\Gruntfile.js" />
     <Content Include="Assets\admin\libs\numeral\karma-ci.conf.js" />
@@ -5041,8 +4984,6 @@
     <Content Include="Assets\admin\libs\numeral\tests\numeral\misc.js" />
     <Content Include="Assets\admin\libs\numeral\tests\numeral\unformat.js" />
     <Content Include="Assets\admin\libs\numeral\tests\numeral\validate.js" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\slimScroll\examples\allow-page-scroll.html" />
     <Content Include="Assets\admin\libs\slimScroll\examples\chaining.html" />
     <Content Include="Assets\admin\libs\slimScroll\examples\disable-fade-out.html" />
@@ -5068,10 +5009,7 @@
     <Content Include="Assets\admin\libs\toastr\toastr.min.css" />
     <Content Include="Assets\admin\libs\toastr\toastr.min.js" />
     <Content Include="Assets\client\css\bootstrap.css" />
-<<<<<<< HEAD
     <Content Include="Assets\client\css\custom.css" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\client\css\etalage.css" />
     <Content Include="Assets\client\css\form.css" />
     <Content Include="Assets\client\css\style.css" />
@@ -5131,21 +5069,17 @@
     <Content Include="Assets\client\images\wa.jpg" />
     <Content Include="Assets\client\images\wat.jpg" />
     <Content Include="Assets\client\images\zoom.png" />
-<<<<<<< HEAD
     <Content Include="Assets\client\js\common.js" />
     <Content Include="Assets\client\js\controllers\contact.js" />
     <Content Include="Assets\client\js\controllers\shoppingCart.js" />
-=======
->>>>>>> origin/cnm_hmdat
     <Content Include="Assets\client\js\jquery.etalage.min.js" />
     <Content Include="Assets\client\js\jquery.flexisel.js" />
     <Content Include="Assets\client\js\jquery.min.js" />
     <Content Include="Assets\client\js\jquery.wmuSlider.js" />
-<<<<<<< HEAD
     <Content Include="Assets\client\template\contact_template.html" />
     <Content Include="Assets\client\template\newuser.html" />
-=======
->>>>>>> origin/cnm_hmdat
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -5153,6 +5087,26 @@
     <Content Include="Content\Site.css" />
     <Content Include="Libs\CKFinder.dll" />
     <Content Include="Resources\script.sql" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap.min.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Content\bootstrap-theme.min.css.map" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <None Include="Scripts\jquery-3.1.1.intellisense.js" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.js" />
+    <Content Include="Scripts\jquery-3.1.1.min.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.js" />
+    <Content Include="Scripts\jquery-3.1.1.slim.min.js" />
+    <Content Include="Scripts\modernizr-2.8.3.js" />
+    <Content Include="Scripts\respond.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.js" />
+    <Content Include="Scripts\respond.matchmedia.addListener.min.js" />
+    <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
     </Content>
@@ -5171,17 +5125,13 @@
     <Folder Include="app\shared\footer\" />
     <Folder Include="app\shared\navigation\" />
     <Folder Include="Assets\admin\js\pages\" />
-<<<<<<< HEAD
     <Folder Include="Assets\admin\libs\checklist-model\test\" />
-=======
->>>>>>> origin/cnm_hmdat
     <Folder Include="UploadedFiles\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="fonts\glyphicons-halflings-regular.woff" />
-    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
-    <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <Content Include="packages.config" />
+    <Content Include="packages.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
@@ -5464,13 +5414,9 @@
     <Content Include="AppSettings.config">
       <SubType>Designer</SubType>
     </Content>
-<<<<<<< HEAD
     <Content Include="ConnectionStrings.config">
       <SubType>Designer</SubType>
     </Content>
-=======
-    <Content Include="ConnectionStrings.config" />
->>>>>>> origin/cnm_hmdat
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Category.cshtml" />
@@ -5522,7 +5468,6 @@
     <Content Include="Assets\client\font-awesome-4.6.3\scss\_stacked.scss" />
     <Content Include="Assets\client\font-awesome-4.6.3\scss\_variables.scss" />
   </ItemGroup>
-<<<<<<< HEAD
   <ItemGroup>
     <Content Include="Assets\admin\libs\jquery-ui\.bower.json" />
     <Content Include="Assets\admin\libs\jquery-ui\bower.json" />
@@ -5605,8 +5550,12 @@
     <Content Include="Assets\admin\libs\checklist-model\bower.json" />
     <Content Include="Assets\admin\libs\checklist-model\readme.md" />
   </ItemGroup>
-=======
->>>>>>> origin/cnm_hmdat
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.1.1.slim.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Scripts\jquery-3.1.1.min.map" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

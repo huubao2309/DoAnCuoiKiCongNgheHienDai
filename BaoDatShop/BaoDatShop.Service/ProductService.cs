@@ -24,7 +24,6 @@ namespace BaoDatShop.Service
 
         IEnumerable<Product> GetHotProduct(int top);
 
-<<<<<<< HEAD
         IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, string sort, out int totalRow);
 
         IEnumerable<Product> Search(string keyword, int page, int pageSize, string sort, out int totalRow);
@@ -32,14 +31,10 @@ namespace BaoDatShop.Service
         IEnumerable<Product> GetReatedProducts(int id, int top);
 
         IEnumerable<string> GetListProductByName(string name);
-=======
-        IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, out int totalRow);
->>>>>>> origin/cnm_hmdat
 
         Product GetById(int id);
 
         void Save();
-<<<<<<< HEAD
 
         IEnumerable<Tag> GetListTagByProductId(int id);
 
@@ -50,8 +45,6 @@ namespace BaoDatShop.Service
         IEnumerable<Product> GetListProductByTag(string tagId,int page,int pagesize,out int totalRow);
 
         bool SellProduct(int productId, int quantity);
-=======
->>>>>>> origin/cnm_hmdat
     }
 
     public class ProductService : IProductService
@@ -165,7 +158,6 @@ namespace BaoDatShop.Service
 
         }
 
-<<<<<<< HEAD
         public IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, string sort, out int totalRow)
         {
             var query = _productRepository.GetMulti(x => x.Status && x.CategoryID == categoryId);
@@ -186,17 +178,10 @@ namespace BaoDatShop.Service
                     break;
             }
 
-=======
-        public IEnumerable<Product> GetListProductByCategoryIdPaging(int categoryId, int page, int pageSize, out int totalRow)
-        {
-            var query = _productRepository.GetMulti(x => x.Status && x.CategoryID == categoryId);
-
->>>>>>> origin/cnm_hmdat
             totalRow = query.Count();
 
             return query.Skip((page - 1) * pageSize).Take(pageSize);
         }
-<<<<<<< HEAD
 
         public IEnumerable<string> GetListProductByName(string name)
         {
@@ -268,7 +253,5 @@ namespace BaoDatShop.Service
             product.Quantity -= quantity;
             return true;
         }
-=======
->>>>>>> origin/cnm_hmdat
     }
 }

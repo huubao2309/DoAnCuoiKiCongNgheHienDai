@@ -50,12 +50,9 @@ namespace BaoDatShop.Web.Models
         public bool Status { set; get; }
 
         public string Tags { set; get; }
-<<<<<<< HEAD
 
         public int Quantity { set; get; }
         public int OriginalPrice { set; get; }
-=======
->>>>>>> origin/cnm_hmdat
         public virtual ProductCategoryViewModel ProductCategory { set; get; }
     }
 }

@@ -95,7 +95,6 @@ namespace BaoDatShop.Web.Infrastructure.Extensions
             product.MetaDescription = productVm.MetaDescription;
             product.Status = productVm.Status;
             product.Tags = productVm.Tags;
-<<<<<<< HEAD
             product.Quantity = productVm.Quantity;
             product.OriginalPrice = productVm.OriginalPrice;
         }
@@ -147,8 +146,6 @@ namespace BaoDatShop.Web.Infrastructure.Extensions
             appUser.Email = appUserViewModel.Email;
             appUser.UserName = appUserViewModel.UserName;
             appUser.PhoneNumber = appUserViewModel.PhoneNumber;
-=======
->>>>>>> origin/cnm_hmdat
         }
     }
 }

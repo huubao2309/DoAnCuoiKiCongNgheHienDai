@@ -1,11 +1,8 @@
 ﻿using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using System;
-<<<<<<< HEAD
 using System.Collections;
 using System.Collections.Generic;
-=======
->>>>>>> origin/cnm_hmdat
 using System.ComponentModel.DataAnnotations;
 using System.Security.Claims;
 using System.Threading.Tasks;
@@ -29,10 +26,7 @@ namespace BaoDatShop.Model.Models
             // Add custom user claims here
             return userIdentity;
         }
-<<<<<<< HEAD
 
         public virtual IEnumerable<Order> Orders { set; get; }
-=======
->>>>>>> origin/cnm_hmdat
     }
 }
