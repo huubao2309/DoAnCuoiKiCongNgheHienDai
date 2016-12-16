@@ -8,8 +8,36 @@ namespace BaoDatShop.Web
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+<<<<<<< HEAD
             // BotDetect requests must not be routed
             routes.IgnoreRoute("{*botdetect}", new { botdetect = @"(.*)BotDetectCaptcha\.ashx" });
+=======
+            routes.MapRoute(
+         name: "Login",
+         url: "dang-nhap.html",
+         defaults: new { controller = "Account", action = "Login", id = UrlParameter.Optional },
+         namespaces: new string[] { "BaoDatShop.Web.Controllers" }
+     );
+            routes.MapRoute(
+           name: "About",
+           url: "gioi-thieu.html",
+           defaults: new { controller = "About", action = "Index", id = UrlParameter.Optional },
+           namespaces: new string[] { "BaoDatShop.Web.Controllers" }
+       );
+            routes.MapRoute(
+             name: "Product Category",
+             url: "{alias}.pc-{id}.html",
+             defaults: new { controller = "Product", action = "Category", id = UrlParameter.Optional },
+               namespaces: new string[] { "BaoDatShop.Web.Controllers" }
+         );
+
+            routes.MapRoute(
+             name: "Product",
+             url: "{alias}.p-{productId}.html",
+             defaults: new { controller = "Product", action = "Detail", productId = UrlParameter.Optional },
+               namespaces: new string[] { "BaoDatShop.Web.Controllers" }
+         );
+>>>>>>> origin/cnm_hmdat
 
             routes.MapRoute(
                  name: "Contact",

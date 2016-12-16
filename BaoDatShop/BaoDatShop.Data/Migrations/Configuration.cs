@@ -28,6 +28,10 @@
             CreateContactDetail(context);
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/cnm_hmdat
         }
         private void CreateUser(BaoDatShopDbContext context)
         {
@@ -114,6 +118,7 @@
                 context.Slides.AddRange(listSlide);
                 context.SaveChanges();
             }
+<<<<<<< HEAD
         }
 
         private void CreatePage(BaoDatShopDbContext context)
@@ -183,6 +188,8 @@
                 }
 
             }
+=======
+>>>>>>> origin/cnm_hmdat
         }
     }
 }

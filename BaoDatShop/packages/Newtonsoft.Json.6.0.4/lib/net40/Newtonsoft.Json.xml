@@ -6,12 +6,12 @@
     <members>
         <member name="T:Newtonsoft.Json.Bson.BsonReader">
             <summary>
-            Represents a reader that provides fast, non-cached, forward-only access to serialized Json data.
+            Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
             </summary>
         </member>
         <member name="T:Newtonsoft.Json.JsonReader">
             <summary>
-            Represents a reader that provides fast, non-cached, forward-only access to serialized Json data.
+            Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
             </summary>
         </member>
         <member name="M:Newtonsoft.Json.JsonReader.#ctor">
@@ -39,9 +39,9 @@
         </member>
         <member name="M:Newtonsoft.Json.JsonReader.ReadAsBytes">
             <summary>
-            Reads the next JSON token from the stream as a <see cref="T:Byte[]"/>.
+            Reads the next JSON token from the stream as a <see cref="T:System.Byte"/>[].
             </summary>
-            <returns>A <see cref="T:Byte[]"/> or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.</returns>
+            <returns>A <see cref="T:System.Byte"/>[] or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.</returns>
         </member>
         <member name="M:Newtonsoft.Json.JsonReader.ReadAsDecimal">
             <summary>
@@ -286,10 +286,10 @@
         </member>
         <member name="M:Newtonsoft.Json.Bson.BsonReader.ReadAsBytes">
             <summary>
-            Reads the next JSON token from the stream as a <see cref="T:Byte[]"/>.
+            Reads the next JSON token from the stream as a <see cref="T:System.Byte"/>[].
             </summary>
             <returns>
-            A <see cref="T:Byte[]"/> or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.
+            A <see cref="T:System.Byte"/>[] or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.
             </returns>
         </member>
         <member name="M:Newtonsoft.Json.Bson.BsonReader.ReadAsDecimal">
@@ -366,7 +366,7 @@
         </member>
         <member name="T:Newtonsoft.Json.JsonWriter">
             <summary>
-            Represents a writer that provides a fast, non-cached, forward-only way of generating Json data.
+            Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.
             </summary>
         </member>
         <member name="M:Newtonsoft.Json.JsonWriter.#ctor">
@@ -445,6 +445,22 @@
             </summary>
             <param name="reader">The <see cref="T:Newtonsoft.Json.JsonReader"/> to read the token from.</param>
             <param name="writeChildren">A flag indicating whether the current token's children should be written.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.JsonWriter.WriteToken(Newtonsoft.Json.JsonToken,System.Object)">
+            <summary>
+            Writes the <see cref="T:Newtonsoft.Json.JsonToken"/> token and its value.
+            </summary>
+            <param name="token">The <see cref="T:Newtonsoft.Json.JsonToken"/> to write.</param>
+            <param name="value">
+            The value to write.
+            A value is only required for tokens that have an associated value, e.g. the <see cref="T:System.String"/> property name for <see cref="F:Newtonsoft.Json.JsonToken.PropertyName"/>.
+            A null value can be passed to the method for token's that don't have a value, e.g. <see cref="F:Newtonsoft.Json.JsonToken.StartObject"/>.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.JsonWriter.WriteToken(Newtonsoft.Json.JsonToken)">
+            <summary>
+            Writes the <see cref="T:Newtonsoft.Json.JsonToken"/> token.
+            </summary>
+            <param name="token">The <see cref="T:Newtonsoft.Json.JsonToken"/> to write.</param>
         </member>
         <member name="M:Newtonsoft.Json.JsonWriter.WriteEnd(Newtonsoft.Json.JsonToken)">
             <summary>
@@ -701,9 +717,9 @@
         </member>
         <member name="M:Newtonsoft.Json.JsonWriter.WriteValue(System.Byte[])">
             <summary>
-            Writes a <see cref="T:Byte[]"/> value.
+            Writes a <see cref="T:System.Byte"/>[] value.
             </summary>
-            <param name="value">The <see cref="T:Byte[]"/> value to write.</param>
+            <param name="value">The <see cref="T:System.Byte"/>[] value to write.</param>
         </member>
         <member name="M:Newtonsoft.Json.JsonWriter.WriteValue(System.Uri)">
             <summary>
@@ -983,9 +999,9 @@
         </member>
         <member name="M:Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Byte[])">
             <summary>
-            Writes a <see cref="T:Byte[]"/> value.
+            Writes a <see cref="T:System.Byte"/>[] value.
             </summary>
-            <param name="value">The <see cref="T:Byte[]"/> value to write.</param>
+            <param name="value">The <see cref="T:System.Byte"/>[] value to write.</param>
         </member>
         <member name="M:Newtonsoft.Json.Bson.BsonWriter.WriteValue(System.Guid)">
             <summary>
@@ -1007,7 +1023,7 @@
         </member>
         <member name="M:Newtonsoft.Json.Bson.BsonWriter.WriteObjectId(System.Byte[])">
             <summary>
-            Writes a <see cref="T:Byte[]"/> value that represents a BSON object id.
+            Writes a <see cref="T:System.Byte"/>[] value that represents a BSON object id.
             </summary>
             <param name="value">The Object ID value to write.</param>
         </member>
@@ -1282,6 +1298,38 @@
             	<c>true</c> if this instance can convert the specified object type; otherwise, <c>false</c>.
             </returns>
         </member>
+        <member name="T:Newtonsoft.Json.Converters.DiscriminatedUnionConverter">
+            <summary>
+            Converts a F# discriminated union type to and from JSON.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Converters.DiscriminatedUnionConverter.WriteJson(Newtonsoft.Json.JsonWriter,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            Writes the JSON representation of the object.
+            </summary>
+            <param name="writer">The <see cref="T:Newtonsoft.Json.JsonWriter"/> to write to.</param>
+            <param name="value">The value.</param>
+            <param name="serializer">The calling serializer.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Converters.DiscriminatedUnionConverter.ReadJson(Newtonsoft.Json.JsonReader,System.Type,System.Object,Newtonsoft.Json.JsonSerializer)">
+            <summary>
+            Reads the JSON representation of the object.
+            </summary>
+            <param name="reader">The <see cref="T:Newtonsoft.Json.JsonReader"/> to read from.</param>
+            <param name="objectType">Type of the object.</param>
+            <param name="existingValue">The existing value of object being read.</param>
+            <param name="serializer">The calling serializer.</param>
+            <returns>The object value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Converters.DiscriminatedUnionConverter.CanConvert(System.Type)">
+            <summary>
+            Determines whether this instance can convert the specified object type.
+            </summary>
+            <param name="objectType">Type of the object.</param>
+            <returns>
+            	<c>true</c> if this instance can convert the specified object type; otherwise, <c>false</c>.
+            </returns>
+        </member>
         <member name="T:Newtonsoft.Json.Converters.EntityKeyMemberConverter">
             <summary>
             Converts an Entity Framework EntityKey to and from JSON.
@@ -1499,6 +1547,7 @@
             </summary>
             <value><c>true</c> if integers are allowed; otherwise, <c>false</c>.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="T:Newtonsoft.Json.ConstructorHandling">
             <summary>
             Specifies how constructors are used when initializing objects during deserialization by the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
@@ -1514,6 +1563,8 @@
             Json.NET will use a non-public default constructor before falling back to a paramatized constructor.
             </summary>
         </member>
+=======
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         <member name="T:Newtonsoft.Json.Converters.VersionConverter">
             <summary>
             Converts a <see cref="T:System.Version"/> to and from a string (e.g. "1.2.3.4").
@@ -1774,7 +1825,15 @@
         </member>
         <member name="F:Newtonsoft.Json.Formatting.Indented">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Causes child objects to be indented according to the <see cref="P:Newtonsoft.Json.JsonTextWriter.Indentation"/> and <see cref="P:Newtonsoft.Json.JsonTextWriter.IndentChar"/> settings.
+=======
+            Ignore members where the member value is the same as the member's default value when serializing objects
+            so that is is not written to JSON.
+            This option will ignore all default values (e.g. <c>null</c> for objects and nullable types; <c>0</c> for integers,
+            decimals and floating point numbers; and <c>false</c> for booleans). The default value ignored can be changed by
+            placing the <see cref="T:System.ComponentModel.DefaultValueAttribute"/> on the property.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
         </member>
         <member name="T:Newtonsoft.Json.JsonConstructorAttribute">
@@ -1891,7 +1950,22 @@
             <param name="message">The trace message.</param>
             <param name="ex">The trace exception. This parameter is optional.</param>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Serialization.DiagnosticsTraceWriter.LevelFilter">
+=======
+        <member name="P:Newtonsoft.Json.JsonContainerAttribute.ItemConverterParameters">
+            <summary>
+            The parameter list to use when constructing the JsonConverter described by ItemConverterType.
+            If null, the default constructor is used.
+            When non-null, there must be a constructor defined in the JsonConverter that exactly matches the number,
+            order, and type of these parameters.
+            </summary>
+            <example>
+            [JsonContainer(ItemConverterType = typeof(MyContainerConverter), ItemConverterParameters = new object[] { 123, "Four" })]
+            </example>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonContainerAttribute.IsReference">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets the <see cref="T:System.Diagnostics.TraceLevel"/> that will be used to filter the trace messages passed to the writer.
             For example a filter level of <code>Info</code> will exclude <code>Verbose</code> messages and include <code>Info</code>,
@@ -2143,7 +2217,20 @@
             </summary>
             <value>The current line number or 0 if no line information is available (for example, HasLineInfo returns false).</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.IJsonLineInfo.LinePosition">
+=======
+        <member name="M:Newtonsoft.Json.JsonConvert.ToString(System.String,System.Char,Newtonsoft.Json.StringEscapeHandling)">
+            <summary>
+            Converts the <see cref="T:System.String"/> to its JSON string representation.
+            </summary>
+            <param name="value">The value to convert.</param>
+            <param name="delimiter">The string delimiter character.</param>
+            <param name="stringEscapeHandling">The string escape handling.</param>
+            <returns>A JSON string representation of the <see cref="T:System.String"/>.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.JsonConvert.ToString(System.Object)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets the current line position.
             </summary>
@@ -2173,16 +2260,66 @@
             <summary>
             Represents a raw JSON string.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="value">The object to serialize.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to serialize the object.
+            If this is null, default serialization settings will be used.</param>
+            <returns>
+            A JSON string representation of the object.
+            </returns>
+        </member>
+        <member name="M:Newtonsoft.Json.JsonConvert.SerializeObject(System.Object,System.Type,Newtonsoft.Json.JsonSerializerSettings)">
+            <summary>
+            Serializes the specified object to a JSON string using a type, formatting and <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/>.
+            </summary>
+            <param name="value">The object to serialize.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to serialize the object.
+            If this is null, default serialization settings will be used.</param>
+            <param name="type">
+            The type of the value being serialized.
+            This parameter is used when <see cref="T:Newtonsoft.Json.TypeNameHandling"/> is Auto to write out the type name if the type of the value does not match.
+            Specifing the type is optional.
+            </param>
+            <returns>
+            A JSON string representation of the object.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.Linq.JValue">
             <summary>
             Represents a value in JSON (string, integer, date, etc).
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="value">The object to serialize.</param>
+            <param name="formatting">Indicates how the output is formatted.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to serialize the object.
+            If this is null, default serialization settings will be used.</param>
+            <returns>
+            A JSON string representation of the object.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.Linq.JToken">
             <summary>
             Represents an abstract JSON token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="value">The object to serialize.</param>
+            <param name="formatting">Indicates how the output is formatted.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to serialize the object.
+            If this is null, default serialization settings will be used.</param>
+            <param name="type">
+            The type of the value being serialized.
+            This parameter is used when <see cref="T:Newtonsoft.Json.TypeNameHandling"/> is Auto to write out the type name if the type of the value does not match.
+            Specifing the type is optional.
+            </param>
+            <returns>
+            A JSON string representation of the object.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.Linq.IJEnumerable`1">
             <summary>
@@ -2200,33 +2337,69 @@
             <summary>
             Compares the values of two tokens, including the values of all descendant tokens.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="t1">The first <see cref="T:Newtonsoft.Json.Linq.JToken"/> to compare.</param>
             <param name="t2">The second <see cref="T:Newtonsoft.Json.Linq.JToken"/> to compare.</param>
             <returns>true if the tokens are equal; otherwise false.</returns>
+=======
+            <param name="value">The object to serialize.</param>
+            <param name="formatting">Indicates how the output is formatted.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to serialize the object.
+            If this is null, default serialization settings will be used.</param>
+            <returns>
+            A task that represents the asynchronous serialize operation. The value of the <c>TResult</c> parameter contains a JSON string representation of the object.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.AddAfterSelf(System.Object)">
             <summary>
             Adds the specified content immediately after this token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="content">A content object that contains simple content or a collection of content objects to be added after this token.</param>
+=======
+            <param name="value">The JSON to deserialize.</param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.AddBeforeSelf(System.Object)">
             <summary>
             Adds the specified content immediately before this token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="content">A content object that contains simple content or a collection of content objects to be added before this token.</param>
+=======
+            <param name="value">The JSON to deserialize.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.Ancestors">
             <summary>
             Returns a collection of the ancestor tokens of this token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <returns>A collection of the ancestor tokens of this token.</returns>
+=======
+            <param name="value">The JSON to deserialize.</param>
+            <param name="type">The <see cref="T:System.Type"/> of object being deserialized.</param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.AfterSelf">
             <summary>
             Returns a collection of the sibling tokens after this token, in document order.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <returns>A collection of the sibling tokens after this tokens, in document order.</returns>
+=======
+            <typeparam name="T">The type of the object to deserialize to.</typeparam>
+            <param name="value">The JSON to deserialize.</param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.BeforeSelf">
             <summary>
@@ -2238,9 +2411,24 @@
             <summary>
             Gets the <see cref="T:Newtonsoft.Json.Linq.JToken"/> with the specified key converted to the specified type.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <typeparam name="T">The type to convert the token to.</typeparam>
             <param name="key">The token key.</param>
             <returns>The converted token value.</returns>
+=======
+            <typeparam name="T">
+            The anonymous type to deserialize to. This can't be specified
+            traditionally and must be infered from the anonymous type passed
+            as a parameter.
+            </typeparam>
+            <param name="value">The JSON to deserialize.</param>
+            <param name="anonymousTypeObject">The anonymous type object.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>The deserialized anonymous type from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.Children">
             <summary>
@@ -2252,8 +2440,18 @@
             <summary>
             Returns a collection of the child tokens of this token, in document order, filtered by the specified type.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <typeparam name="T">The type to filter the child tokens on.</typeparam>
             <returns>A <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> containing the child tokens of this <see cref="T:Newtonsoft.Json.Linq.JToken"/>, in document order.</returns>
+=======
+            <typeparam name="T">The type of the object to deserialize to.</typeparam>
+            <param name="value">The object to deserialize.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.Values``1">
             <summary>
@@ -2266,6 +2464,16 @@
             <summary>
             Removes this token from its parent.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="value">The JSON to deserialize.</param>
+            <param name="type">The type of the object to deserialize to.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>The deserialized object from the JSON string.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.Replace(Newtonsoft.Json.Linq.JToken)">
             <summary>
@@ -2277,8 +2485,20 @@
             <summary>
             Writes this token to a <see cref="T:Newtonsoft.Json.JsonWriter"/>.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="writer">A <see cref="T:Newtonsoft.Json.JsonWriter"/> into which this method will write.</param>
             <param name="converters">A collection of <see cref="T:Newtonsoft.Json.JsonConverter"/> which will be used when writing the token.</param>
+=======
+            <typeparam name="T">The type of the object to deserialize to.</typeparam>
+            <param name="value">The JSON to deserialize.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>
+            A task that represents the asynchronous deserialize operation. The value of the <c>TResult</c> parameter contains the deserialized object from the JSON string.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.ToString">
             <summary>
@@ -2292,9 +2512,21 @@
             <summary>
             Returns the JSON for this token using the given formatting and converters.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="formatting">Indicates how the output is formatted.</param>
             <param name="converters">A collection of <see cref="T:Newtonsoft.Json.JsonConverter"/> which will be used when writing the token.</param>
             <returns>The JSON for this token using the given formatting and converters.</returns>
+=======
+            <param name="value">The JSON to deserialize.</param>
+            <param name="type">The type of the object to deserialize to.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>
+            A task that represents the asynchronous deserialize operation. The value of the <c>TResult</c> parameter contains the deserialized object from the JSON string.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Boolean">
             <summary>
@@ -2307,15 +2539,36 @@
             <summary>
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.DateTimeOffset"/>.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
+=======
+            <param name="value">The JSON to populate values from.</param>
+            <param name="target">The target object to populate values onto.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.Boolean}">
             <summary>
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
+=======
+            <param name="value">The JSON to populate values from.</param>
+            <param name="target">The target object to populate values onto.</param>
+            <param name="settings">
+            The <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/> used to deserialize the object.
+            If this is null, default serialization settings will be used.
+            </param>
+            <returns>
+            A task that represents the asynchronous populate operation.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Int64">
             <summary>
@@ -2333,7 +2586,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.DateTimeOffset}">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
+=======
+            Serializes the XML node to a JSON string using formatting and omits the root object if <paramref name="omitRootObject"/> is <c>true</c>.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
@@ -2347,14 +2604,23 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.Double}">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
+=======
+            Deserializes the XmlNode from a JSON string nested in a root elment specified by <paramref name="deserializeRootElementName"/>.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.Char}">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
+=======
+            Deserializes the XmlNode from a JSON string nested in a root elment specified by <paramref name="deserializeRootElementName"/>
+            and writes a .NET array attribute for collections.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
@@ -2375,7 +2641,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.UInt16">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.UInt16"/>.
+=======
+            Serializes the <see cref="T:System.Xml.Linq.XNode"/> to a JSON string using formatting and omits the root object if <paramref name="omitRootObject"/> is <c>true</c>.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
@@ -2389,14 +2659,23 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Byte">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Byte"/>.
+=======
+            Deserializes the <see cref="T:System.Xml.Linq.XNode"/> from a JSON string nested in a root elment specified by <paramref name="deserializeRootElementName"/>.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.SByte">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.SByte"/>.
+=======
+            Deserializes the <see cref="T:System.Xml.Linq.XNode"/> from a JSON string nested in a root elment specified by <paramref name="deserializeRootElementName"/>
+            and writes a .NET array attribute for collections.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
@@ -2422,14 +2701,35 @@
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.Byte}">
+=======
+        <member name="M:Newtonsoft.Json.JsonConverterAttribute.#ctor(System.Type,System.Object[])">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.JsonConverterAttribute"/> class.
+            </summary>
+            <param name="converterType">Type of the converter.</param>
+            <param name="converterParameters">Parameter list to use when constructing the JsonConverter.  Can be null.</param>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonConverterAttribute.ConverterType">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.SByte}">
+=======
+        <member name="P:Newtonsoft.Json.JsonConverterAttribute.ConverterParameters">
+            <summary>
+            The parameter list to use when constructing the JsonConverter described by ConverterType.  
+            If null, the default constructor is used.
+            </summary>
+        </member>
+        <member name="T:Newtonsoft.Json.JsonConverterCollection">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
             </summary>
@@ -2494,10 +2794,37 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.String">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.String"/>.
             </summary>
             <param name="value">The value.</param>
             <returns>The result of the conversion.</returns>
+=======
+            Instructs the <see cref="T:Newtonsoft.Json.JsonSerializer"/> to deserialize properties with no matching class member into the specified collection
+            and write values during serialization.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.JsonExtensionDataAttribute.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.JsonExtensionDataAttribute"/> class.
+            </summary>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonExtensionDataAttribute.WriteData">
+            <summary>
+            Gets or sets a value that indicates whether to write extension data when serializing the object.
+            </summary>
+            <value>
+            	<c>true</c> to write extension data when serializing the object; otherwise, <c>false</c>. The default is <c>true</c>.
+            </value>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonExtensionDataAttribute.ReadData">
+            <summary>
+            Gets or sets a value that indicates whether to read extension data when deserializing the object.
+            </summary>
+            <value>
+            	<c>true</c> to read extension data when deserializing the object; otherwise, <c>false</c>. The default is <c>true</c>.
+            </value>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.UInt32">
             <summary>
@@ -2576,7 +2903,22 @@
             <param name="value">The value to create a <see cref="T:Newtonsoft.Json.Linq.JValue"/> from.</param>
             <returns>The <see cref="T:Newtonsoft.Json.Linq.JValue"/> initialized with the specified value.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.Nullable{System.Byte})~Newtonsoft.Json.Linq.JToken">
+=======
+        <member name="P:Newtonsoft.Json.JsonPropertyAttribute.ItemConverterParameters">
+            <summary>
+            The parameter list to use when constructing the JsonConverter described by ItemConverterType.
+            If null, the default constructor is used.
+            When non-null, there must be a constructor defined in the JsonConverter that exactly matches the number,
+            order, and type of these parameters.
+            </summary>
+            <example>
+            [JsonProperty(ItemConverterType = typeof(MyContainerConverter), ItemConverterParameters = new object[] { 123, "Four" })]
+            </example>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonPropertyAttribute.NullValueHandling">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Performs an implicit conversion from <see cref="T:System.Nullable`1"/> to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
             </summary>
@@ -2974,7 +3316,17 @@
             	<c>true</c> if this token has child values; otherwise, <c>false</c>.
             </value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Linq.JToken.Next">
+=======
+        <member name="P:Newtonsoft.Json.JsonSerializer.MetadataPropertyHandling">
+            <summary>
+            Gets or sets how metadata properties are used during deserialization.
+            </summary>
+            <value>The metadata properties handling.</value>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonSerializer.Converters">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets the next sibling token of this node.
             </summary>
@@ -3119,7 +3471,17 @@
             </summary>
             <returns>A <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JValue.CreateUndefined">
+=======
+        <member name="P:Newtonsoft.Json.JsonSerializerSettings.MetadataPropertyHandling">
+            <summary>
+            Gets or sets how metadata properties are used during deserialization.
+            </summary>
+            <value>The metadata properties handling.</value>
+        </member>
+        <member name="P:Newtonsoft.Json.JsonSerializerSettings.TypeNameAssemblyFormat">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Creates a <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.
             </summary>
@@ -3292,9 +3654,17 @@
         </member>
         <member name="M:Newtonsoft.Json.Serialization.JsonDynamicContract.#ctor(System.Type)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Initializes a new instance of the <see cref="T:Newtonsoft.Json.Serialization.JsonDynamicContract"/> class.
             </summary>
             <param name="underlyingType">The underlying type for the contract.</param>
+=======
+            Reads the next JSON token from the stream as a <see cref="T:System.Byte"/>[].
+            </summary>
+            <returns>
+            A <see cref="T:System.Byte"/>[] or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.Serialization.JsonDynamicContract.Properties">
             <summary>
@@ -3349,7 +3719,11 @@
         </member>
         <member name="T:Newtonsoft.Json.Serialization.DynamicValueProvider">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Get and set values for a <see cref="T:System.Reflection.MemberInfo"/> using dynamic methods.
+=======
+            Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
         </member>
         <member name="M:Newtonsoft.Json.Serialization.DynamicValueProvider.#ctor(System.Reflection.MemberInfo)">
@@ -3583,12 +3957,18 @@
         </member>
         <member name="T:Newtonsoft.Json.DefaultValueHandling">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Specifies default value handling options for the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
             </summary>
             <example>
               <code lang="cs" source="..\Src\Newtonsoft.Json.Tests\Documentation\SerializationTests.cs" region="ReducingSerializedJsonSizeDefaultValueHandlingObject" title="DefaultValueHandling Class"/>
               <code lang="cs" source="..\Src\Newtonsoft.Json.Tests\Documentation\SerializationTests.cs" region="ReducingSerializedJsonSizeDefaultValueHandlingExample" title="DefaultValueHandling Ignore Example"/>
             </example>
+=======
+            Writes a <see cref="T:System.Byte"/>[] value.
+            </summary>
+            <param name="value">The <see cref="T:System.Byte"/>[] value to write.</param>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="F:Newtonsoft.Json.DefaultValueHandling.Include">
             <summary>
@@ -3784,8 +4164,16 @@
         </member>
         <member name="P:Newtonsoft.Json.JsonSerializerSettings.DateFormatString">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Get or set how <see cref="T:System.DateTime"/> and <see cref="T:System.DateTimeOffset"/> values are formatting when writing JSON text.
             </summary>
+=======
+            Reads the next JSON token from the stream as a <see cref="T:System.Byte"/>[].
+            </summary>
+            <returns>
+            A <see cref="T:System.Byte"/>[] or a null reference if the next JSON token is null.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonSerializerSettings.MaxDepth">
             <summary>
@@ -3915,12 +4303,40 @@
             <summary>
             Gets the depth of the current token in the JSON document.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <value>The depth of the current token in the JSON document.</value>
+=======
+            <typeparam name="T">The type of the objects in source, constrained to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the ancestors of every token in the source collection.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.Extensions.AncestorsAndSelf``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Returns a collection of tokens that contains every token in the source collection, and the ancestors of every token in the source collection.
+            </summary>
+            <typeparam name="T">The type of the objects in source, constrained to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains every token in the source collection, the ancestors of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonValidatingReader.Path">
             <summary>
             Gets the path of the current JSON token. 
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <typeparam name="T">The type of the objects in source, constrained to <see cref="T:Newtonsoft.Json.Linq.JContainer"/>.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the descendants of every token in the source collection.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.Extensions.DescendantsAndSelf``1(System.Collections.Generic.IEnumerable{``0})">
+            <summary>
+            Returns a collection of tokens that contains every token in the source collection, and the descendants of every token in the source collection.
+            </summary>
+            <typeparam name="T">The type of the objects in source, constrained to <see cref="T:Newtonsoft.Json.Linq.JContainer"/>.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains every token in the source collection, and the descendants of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonValidatingReader.QuoteChar">
             <summary>
@@ -3932,25 +4348,49 @@
             <summary>
             Gets the type of the current JSON token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <value></value>
+=======
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <param name="key">The token key.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the values of every token in the source collection with the given key.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonValidatingReader.ValueType">
             <summary>
             Gets the Common Language Runtime (CLR) type for the current JSON token.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <value></value>
+=======
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the values of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonValidatingReader.Schema">
             <summary>
             Gets or sets the schema.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <value>The schema.</value>
+=======
+            <typeparam name="U">The type to convert the values to.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <param name="key">The token key.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> that contains the converted values of every token in the source collection with the given key.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonValidatingReader.Reader">
             <summary>
             Gets the <see cref="T:Newtonsoft.Json.JsonReader"/> used to construct this <see cref="T:Newtonsoft.Json.JsonValidatingReader"/>.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <value>The <see cref="T:Newtonsoft.Json.JsonReader"/> specified in the constructor.</value>
+=======
+            <typeparam name="U">The type to convert the values to.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> that contains the converted values of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.Linq.JTokenEqualityComparer">
             <summary>
@@ -3971,14 +4411,27 @@
             <summary>
             Returns a hash code for the specified object.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             <param name="obj">The <see cref="T:System.Object"/> for which a hash code is to be returned.</param>
             <returns>A hash code for the specified object.</returns>
             <exception cref="T:System.ArgumentNullException">The type of <paramref name="obj"/> is a reference type and <paramref name="obj"/> is null.</exception>
+=======
+            <typeparam name="T">The source collection type.</typeparam>
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the values of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.MemberSerialization">
             <summary>
             Specifies the member serialization options for the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
+            <typeparam name="U">The type to convert the values to.</typeparam>
+            <typeparam name="T">The source collection type.</typeparam>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> that contains the converted values of every token in the source collection.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="F:Newtonsoft.Json.MemberSerialization.OptOut">
             <summary>
@@ -4048,7 +4501,17 @@
             </summary>
             <value>The date time styles used when converting a date to and from JSON.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Converters.IsoDateTimeConverter.DateTimeFormat">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JToken.AncestorsAndSelf">
+            <summary>
+            Returns a collection of tokens that contain this token, and the ancestors of this token.
+            </summary>
+            <returns>A collection of tokens that contain this token, and the ancestors of this token.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.AfterSelf">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets the date time format used when converting a date to and from JSON.
             </summary>
@@ -4220,7 +4683,18 @@
             The current line number or 0 if no line information is available (for example, HasLineInfo returns false).
             </value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.JsonTextReader.LinePosition">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.SByte">
+            <summary>
+            Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.SByte"/>.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>The result of the conversion.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.Int32}">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets the current line position.
             </summary>
@@ -4244,7 +4718,18 @@
             </summary>
             <param name="propertyName">Name of the property.</param>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.JsonPropertyAttribute.ItemConverterType">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.Nullable{System.SByte}">
+            <summary>
+            Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Nullable`1"/>.
+            </summary>
+            <param name="value">The value.</param>
+            <returns>The result of the conversion.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Explicit(Newtonsoft.Json.Linq.JToken)~System.DateTime">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets the converter used when serializing the property's collection items.
             </summary>
@@ -4314,7 +4799,11 @@
         </member>
         <member name="P:Newtonsoft.Json.JsonPropertyAttribute.ItemTypeNameHandling">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the the type name handling used when serializing the property's collection items.
+=======
+            Performs an explicit conversion from <see cref="T:Newtonsoft.Json.Linq.JToken"/> to <see cref="T:System.Byte"/>[].
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The collection's items type name handling.</value>
         </member>
@@ -4355,7 +4844,39 @@
             Writes the beginning of a Json object.
             </summary>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.JsonTextWriter.WriteStartArray">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.Byte)~Newtonsoft.Json.Linq.JToken">
+            <summary>
+            Performs an implicit conversion from <see cref="T:System.Byte"/> to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="value">The value to create a <see cref="T:Newtonsoft.Json.Linq.JValue"/> from.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Linq.JValue"/> initialized with the specified value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.Nullable{System.Byte})~Newtonsoft.Json.Linq.JToken">
+            <summary>
+            Performs an implicit conversion from <see cref="T:System.Nullable`1"/> to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="value">The value to create a <see cref="T:Newtonsoft.Json.Linq.JValue"/> from.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Linq.JValue"/> initialized with the specified value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.SByte)~Newtonsoft.Json.Linq.JToken">
+            <summary>
+            Performs an implicit conversion from <see cref="T:System.SByte"/> to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="value">The value to create a <see cref="T:Newtonsoft.Json.Linq.JValue"/> from.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Linq.JValue"/> initialized with the specified value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.Nullable{System.SByte})~Newtonsoft.Json.Linq.JToken">
+            <summary>
+            Performs an implicit conversion from <see cref="T:System.Nullable`1"/> to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="value">The value to create a <see cref="T:Newtonsoft.Json.Linq.JValue"/> from.</param>
+            <returns>The <see cref="T:Newtonsoft.Json.Linq.JValue"/> initialized with the specified value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.op_Implicit(System.Nullable{System.Boolean})~Newtonsoft.Json.Linq.JToken">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Writes the beginning of a Json array.
             </summary>
@@ -4491,7 +5012,11 @@
         </member>
         <member name="M:Newtonsoft.Json.JsonTextWriter.WriteValue(System.UInt16)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Writes a <see cref="T:System.UInt16"/> value.
+=======
+            Performs an implicit conversion from <see cref="T:System.Byte"/>[] to <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The <see cref="T:System.UInt16"/> value to write.</param>
         </member>
@@ -4584,13 +5109,51 @@
         </member>
         <member name="P:Newtonsoft.Json.JsonTextWriter.QuoteName">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets a value indicating whether object names will be surrounded with quotes.
             </summary>
+=======
+            Selects a <see cref="T:Newtonsoft.Json.Linq.JToken"/> using a JPath expression. Selects the token that matches the object path.
+            </summary>
+            <param name="path">
+            A <see cref="T:System.String"/> that contains a JPath expression.
+            </param>
+            <returns>A <see cref="T:Newtonsoft.Json.Linq.JToken"/>, or null.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.JsonWriterException">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             The exception thrown when an error occurs while reading Json text.
             </summary>
+=======
+            Selects a <see cref="T:Newtonsoft.Json.Linq.JToken"/> using a JPath expression. Selects the token that matches the object path.
+            </summary>
+            <param name="path">
+            A <see cref="T:System.String"/> that contains a JPath expression.
+            </param>
+            <param name="errorWhenNoMatch">A flag to indicate whether an error should be thrown if no tokens are found when evaluating part of the expression.</param>
+            <returns>A <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.SelectTokens(System.String)">
+            <summary>
+            Selects a collection of elements using a JPath expression.
+            </summary>
+            <param name="path">
+            A <see cref="T:System.String"/> that contains a JPath expression.
+            </param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> that contains the selected elements.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.SelectTokens(System.String,System.Boolean)">
+            <summary>
+            Selects a collection of elements using a JPath expression.
+            </summary>
+            <param name="path">
+            A <see cref="T:System.String"/> that contains a JPath expression.
+            </param>
+            <param name="errorWhenNoMatch">A flag to indicate whether an error should be thrown if no tokens are found when evaluating part of the expression.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> that contains the selected elements.</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.JsonWriterException.#ctor">
             <summary>
@@ -4612,7 +5175,57 @@
             <param name="message">The error message that explains the reason for the exception.</param>
             <param name="innerException">The exception that is the cause of the current exception, or a null reference (Nothing in Visual Basic) if no inner exception is specified.</param>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.JsonWriterException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JToken.AddAnnotation(System.Object)">
+            <summary>
+            Adds an object to the annotation list of this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="annotation">The annotation to add.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.Annotation``1">
+            <summary>
+            Get the first annotation object of the specified type from this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <typeparam name="T">The type of the annotation to retrieve.</typeparam>
+            <returns>The first annotation object that matches the specified type, or <c>null</c> if no annotation is of the specified type.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.Annotation(System.Type)">
+            <summary>
+            Gets the first annotation object of the specified type from this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="type">The <see cref="P:Newtonsoft.Json.Linq.JToken.Type"/> of the annotation to retrieve.</param>
+            <returns>The first annotation object that matches the specified type, or <c>null</c> if no annotation is of the specified type.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.Annotations``1">
+            <summary>
+            Gets a collection of annotations of the specified type for this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <typeparam name="T">The type of the annotations to retrieve.</typeparam>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/>  that contains the annotations for this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.Annotations(System.Type)">
+            <summary>
+            Gets a collection of annotations of the specified type for this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="type">The <see cref="P:Newtonsoft.Json.Linq.JToken.Type"/> of the annotations to retrieve.</param>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:System.Object"/> that contains the annotations that match the specified type for this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.RemoveAnnotations``1">
+            <summary>
+            Removes the annotations of the specified type from this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <typeparam name="T">The type of annotations to remove.</typeparam>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JToken.RemoveAnnotations(System.Type)">
+            <summary>
+            Removes the annotations of the specified type from this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="type">The <see cref="P:Newtonsoft.Json.Linq.JToken.Type"/> of annotations to remove.</param>
+        </member>
+        <member name="P:Newtonsoft.Json.Linq.JToken.EqualityComparer">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Initializes a new instance of the <see cref="T:Newtonsoft.Json.JsonWriterException"/> class.
             </summary>
@@ -4639,8 +5252,12 @@
         </member>
         <member name="M:Newtonsoft.Json.JsonReaderException.#ctor(System.String)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Initializes a new instance of the <see cref="T:Newtonsoft.Json.JsonReaderException"/> class
             with a specified error message.
+=======
+            Gets a value indicating whether this token has child tokens.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="message">The error message that explains the reason for the exception.</param>
         </member>
@@ -4717,7 +5334,17 @@
             Represents JavaScript's positive infinity as a string. This field is read-only.
             </summary>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="F:Newtonsoft.Json.JsonConvert.NegativeInfinity">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JContainer.DescendantsAndSelf">
+            <summary>
+            Returns a collection of the tokens that contain this token, and all descendant tokens of this token, in document order.
+            </summary>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> containing this token, and all the descendant tokens of the <see cref="T:Newtonsoft.Json.Linq.JToken"/>.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JContainer.Add(System.Object)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Represents JavaScript's negative infinity as a string. This field is read-only.
             </summary>
@@ -4750,7 +5377,24 @@
             <param name="value">The value to convert.</param>
             <returns>A JSON string representation of the <see cref="T:System.DateTimeOffset"/>.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.JsonConvert.ToString(System.DateTimeOffset,Newtonsoft.Json.DateFormatHandling)">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JContainer.Merge(System.Object)">
+            <summary>
+            Merge the specified content into this <see cref="T:Newtonsoft.Json.Linq.JToken"/>.
+            </summary>
+            <param name="content">The content to be merged.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JContainer.Merge(System.Object,Newtonsoft.Json.Linq.JsonMergeSettings)">
+            <summary>
+            Merge the specified content into this <see cref="T:Newtonsoft.Json.Linq.JToken"/> using <see cref="T:Newtonsoft.Json.Linq.JsonMergeSettings"/>.
+            </summary>
+            <param name="content">The content to be merged.</param>
+            <param name="settings">The <see cref="T:Newtonsoft.Json.Linq.JsonMergeSettings"/> used to merge the content.</param>
+        </member>
+        <member name="E:Newtonsoft.Json.Linq.JContainer.ListChanged">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Converts the <see cref="T:System.DateTimeOffset"/> to its JSON string representation using the <see cref="T:Newtonsoft.Json.DateFormatHandling"/> specified.
             </summary>
@@ -4781,7 +5425,11 @@
         </member>
         <member name="M:Newtonsoft.Json.JsonConvert.ToString(System.Int32)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Converts the <see cref="T:System.Int32"/> to its JSON string representation.
+=======
+            Gets a value indicating whether this token has child tokens.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="value">The value to convert.</param>
             <returns>A JSON string representation of the <see cref="T:System.Int32"/>.</returns>
@@ -5380,7 +6028,20 @@
             The <see cref="T:Newtonsoft.Json.JsonSerializer"/> will not use default settings.
             </returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.JsonSerializer.Create(Newtonsoft.Json.JsonSerializerSettings)">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JEnumerable`1.Equals(Newtonsoft.Json.Linq.JEnumerable{`0})">
+            <summary>
+            Determines whether the specified <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> is equal to this instance.
+            </summary>
+            <param name="other">The <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> to compare with this instance.</param>
+            <returns>
+            	<c>true</c> if the specified <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> is equal to this instance; otherwise, <c>false</c>.
+            </returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JEnumerable`1.Equals(System.Object)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Creates a new <see cref="T:Newtonsoft.Json.JsonSerializer"/> instance using the specified <see cref="T:Newtonsoft.Json.JsonSerializerSettings"/>.
             The <see cref="T:Newtonsoft.Json.JsonSerializer"/> will not use default settings.
@@ -5509,8 +6170,16 @@
         </member>
         <member name="P:Newtonsoft.Json.JsonSerializer.ReferenceResolver">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the <see cref="T:Newtonsoft.Json.Serialization.IReferenceResolver"/> used by the serializer when resolving references.
             </summary>
+=======
+            Creates a <see cref="T:Newtonsoft.Json.Linq.JObject"/> from an object.
+            </summary>
+            <param name="o">The object that will be used to create <see cref="T:Newtonsoft.Json.Linq.JObject"/>.</param>
+            <param name="jsonSerializer">The <see cref="T:Newtonsoft.Json.JsonSerializer"/> that will be used to read the object.</param>
+            <returns>A <see cref="T:Newtonsoft.Json.Linq.JObject"/> with the values of the specified object</returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="P:Newtonsoft.Json.JsonSerializer.Binder">
             <summary>
@@ -5676,7 +6345,22 @@
             <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
             <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the descendants of every node in the source collection.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.Extensions.Properties(System.Collections.Generic.IEnumerable{Newtonsoft.Json.Linq.JObject})">
+=======
+        <member name="T:Newtonsoft.Json.Linq.JsonMergeSettings">
+            <summary>
+            Specifies the settings used when merging JSON.
+            </summary>
+        </member>
+        <member name="P:Newtonsoft.Json.Linq.JsonMergeSettings.MergeArrayHandling">
+            <summary>
+            Gets or sets the method used when merging JSON arrays.
+            </summary>
+            <value>The method used when merging JSON arrays.</value>
+        </member>
+        <member name="T:Newtonsoft.Json.Linq.JProperty">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Returns a collection of child properties of every object in the source collection.
             </summary>
@@ -5764,10 +6448,18 @@
             <param name="source">An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Newtonsoft.Json.Linq.JToken"/> that contains the source collection.</param>
             <returns>The input typed as <see cref="T:Newtonsoft.Json.Linq.IJEnumerable`1"/>.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="T:Newtonsoft.Json.Linq.JConstructor">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JPropertyDescriptor.#ctor(System.String)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Represents a JSON constructor.
             </summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
+=======
+            <param name="name">The name.</param>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="T:Newtonsoft.Json.Linq.JContainer">
             <summary>
@@ -5857,7 +6549,17 @@
             <param name="content">The content to be merged.</param>
             <param name="settings">The <see cref="T:Newtonsoft.Json.Linq.JsonMergeSettings"/> used to merge the content.</param>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="E:Newtonsoft.Json.Linq.JContainer.ListChanged">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JValue.#ctor(System.Decimal)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.Linq.JValue"/> class with the given value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JValue.#ctor(System.Char)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Occurs when the list changes or an item in the list changes.
             </summary>
@@ -5886,7 +6588,17 @@
             	<c>true</c> if this token has child values; otherwise, <c>false</c>.
             </value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Linq.JContainer.First">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JValue.#ctor(System.DateTimeOffset)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.Linq.JValue"/> class with the given value.
+            </summary>
+            <param name="value">The value.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JValue.#ctor(System.Boolean)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Get the first child token of this token.
             </summary>
@@ -5939,7 +6651,23 @@
             </summary>
             <param name="name">The constructor name.</param>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JConstructor.WriteTo(Newtonsoft.Json.JsonWriter,Newtonsoft.Json.JsonConverter[])">
+=======
+        <member name="M:Newtonsoft.Json.Linq.JValue.CreateNull">
+            <summary>
+            Creates a <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.
+            </summary>
+            <returns>A <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JValue.CreateUndefined">
+            <summary>
+            Creates a <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.
+            </summary>
+            <returns>A <see cref="T:Newtonsoft.Json.Linq.JValue"/> null value.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Linq.JValue.WriteTo(Newtonsoft.Json.JsonWriter,Newtonsoft.Json.JsonConverter[])">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Writes this token to a <see cref="T:Newtonsoft.Json.JsonWriter"/>.
             </summary>
@@ -6021,7 +6749,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JEnumerable`1.GetHashCode">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Returns a hash code for this instance.
+=======
+            Gets a value indicating whether this token has child tokens.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <returns>
             A hash code for this instance, suitable for use in hashing algorithms and data structures like a hash table. 
@@ -6079,7 +6811,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JObject.PropertyValues">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets an <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> of this object's property values.
+=======
+            Represents a reader that provides fast, non-cached, forward-only access to serialized JSON data.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <returns>An <see cref="T:Newtonsoft.Json.Linq.JEnumerable`1"/> of this object's property values.</returns>
         </member>
@@ -6092,6 +6828,7 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JObject.Parse(System.String)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Load a <see cref="T:Newtonsoft.Json.Linq.JObject"/> from a string that contains JSON.
             </summary>
             <param name="json">A <see cref="T:System.String"/> that contains JSON.</param>
@@ -6099,6 +6836,13 @@
             <example>
               <code lang="cs" source="..\Src\Newtonsoft.Json.Tests\Documentation\LinqToJsonTests.cs" region="LinqToJsonCreateParse" title="Parsing a JSON Object from Text"/>
             </example>
+=======
+            Reads the next JSON token from the stream as a <see cref="T:System.Byte"/>[].
+            </summary>
+            <returns>
+            A <see cref="T:System.Byte"/>[] or a null reference if the next JSON token is null. This method will return <c>null</c> at the end of an array.
+            </returns>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JObject.FromObject(System.Object)">
             <summary>
@@ -6150,7 +6894,21 @@
             <param name="comparison">One of the enumeration values that specifies how the strings will be compared.</param>
             <returns>true if a value was successfully retrieved; otherwise, false.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JObject.Add(System.String,Newtonsoft.Json.Linq.JToken)">
+=======
+        <member name="P:Newtonsoft.Json.Linq.JTokenReader.CurrentToken">
+            <summary>
+            Gets the <see cref="T:Newtonsoft.Json.Linq.JToken"/> at the reader's current position.
+            </summary>
+        </member>
+        <member name="P:Newtonsoft.Json.Linq.JTokenReader.Path">
+            <summary>
+            Gets the path of the current JSON token. 
+            </summary>
+        </member>
+        <member name="T:Newtonsoft.Json.Linq.JTokenType">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Adds the specified property name.
             </summary>
@@ -6303,7 +7061,11 @@
         </member>
         <member name="P:Newtonsoft.Json.Linq.JObject.ChildrenTokens">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets the container's children tokens.
+=======
+            Represents a writer that provides a fast, non-cached, forward-only way of generating JSON data.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The container's children tokens.</value>
         </member>
@@ -6517,9 +7279,15 @@
         </member>
         <member name="M:Newtonsoft.Json.Linq.JTokenReader.#ctor(Newtonsoft.Json.Linq.JToken)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Initializes a new instance of the <see cref="T:Newtonsoft.Json.Linq.JTokenReader"/> class.
             </summary>
             <param name="token">The token to read from.</param>
+=======
+            Writes a <see cref="T:System.Byte"/>[] value.
+            </summary>
+            <param name="value">The <see cref="T:System.Byte"/>[] value to write.</param>
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
         </member>
         <member name="M:Newtonsoft.Json.Linq.JTokenReader.ReadAsBytes">
             <summary>
@@ -6541,13 +7309,43 @@
             </summary>
             <returns>A <see cref="T:System.Nullable`1"/>. This method will return <c>null</c> at the end of an array.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JTokenReader.ReadAsString">
+=======
+        <member name="P:Newtonsoft.Json.Linq.JTokenWriter.CurrentToken">
+            <summary>
+            Gets the <see cref="T:Newtonsoft.Json.Linq.JToken"/> at the writer's current position.
+            </summary>
+        </member>
+        <member name="P:Newtonsoft.Json.Linq.JTokenWriter.Token">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Reads the next JSON token from the stream as a <see cref="T:System.String"/>.
             </summary>
             <returns>A <see cref="T:System.String"/>. This method will return <c>null</c> at the end of an array.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Linq.JTokenReader.ReadAsDateTime">
+=======
+        <member name="T:Newtonsoft.Json.Linq.MergeArrayHandling">
+            <summary>
+            Specifies how JSON arrays are merged together.
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Linq.MergeArrayHandling.Concat">
+            <summary>Concatenate arrays.</summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Linq.MergeArrayHandling.Union">
+            <summary>Union arrays, skipping items that already exist.</summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Linq.MergeArrayHandling.Replace">
+            <summary>Replace all array items.</summary>
+        </member>
+        <member name="F:Newtonsoft.Json.Linq.MergeArrayHandling.Merge">
+            <summary>Merge array items together, matched by index.</summary>
+        </member>
+        <member name="T:Newtonsoft.Json.MemberSerialization">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Reads the next JSON token from the stream as a <see cref="T:System.Nullable`1"/>.
             </summary>
@@ -6572,7 +7370,31 @@
             Gets the path of the current JSON token. 
             </summary>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="T:Newtonsoft.Json.Linq.JTokenWriter">
+=======
+        <member name="T:Newtonsoft.Json.MetadataPropertyHandling">
+            <summary>
+            Specifies metadata property handling options for the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.MetadataPropertyHandling.Default">
+            <summary>
+            Read metadata properties located at the start of a JSON object.
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.MetadataPropertyHandling.ReadAhead">
+            <summary>
+            Read metadata properties located anywhere in a JSON object. Note that this setting will impact performance.
+            </summary>
+        </member>
+        <member name="F:Newtonsoft.Json.MetadataPropertyHandling.Ignore">
+            <summary>
+            Do not try to read metadata properties.
+            </summary>
+        </member>
+        <member name="T:Newtonsoft.Json.MissingMemberHandling">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Represents a writer that provides a fast, non-cached, forward-only way of generating Json data.
             </summary>
@@ -7140,9 +7962,9 @@
             </summary>
             <param name="shareCache">
             If set to <c>true</c> the <see cref="T:Newtonsoft.Json.Serialization.DefaultContractResolver"/> will use a cached shared with other resolvers of the same type.
-            Sharing the cache will significantly performance because expensive reflection will only happen once but could cause unexpected
-            behavior if different instances of the resolver are suppose to produce different results. When set to false it is highly
-            recommended to reuse <see cref="T:Newtonsoft.Json.Serialization.DefaultContractResolver"/> instances with the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
+            Sharing the cache will significantly improve performance with multiple resolver instances because expensive reflection will only
+            happen once. This setting can cause unexpected behavior if different instances of the resolver are suppose to produce different
+            results. When set to false it is highly recommended to reuse <see cref="T:Newtonsoft.Json.Serialization.DefaultContractResolver"/> instances with the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
             </param>
         </member>
         <member name="M:Newtonsoft.Json.Serialization.DefaultContractResolver.ResolveContract(System.Type)">
@@ -7445,7 +8267,11 @@
         </member>
         <member name="T:Newtonsoft.Json.Serialization.JsonDictionaryContract">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Contract details for a <see cref="T:System.Type"/> used by the <see cref="T:Newtonsoft.Json.JsonSerializer"/>.
+=======
+            Gets the error.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
         </member>
         <member name="M:Newtonsoft.Json.Serialization.JsonDictionaryContract.#ctor(System.Type)">
@@ -7521,7 +8347,31 @@
             </summary>
             <value>The type of the property.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Serialization.JsonProperty.Converter">
+=======
+        <member name="T:Newtonsoft.Json.Serialization.IAttributeProvider">
+            <summary>
+            Provides methods to get attributes.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.IAttributeProvider.GetAttributes(System.Boolean)">
+            <summary>
+            Returns a collection of all of the attributes, or an empty collection if there are no attributes.
+            </summary>
+            <param name="inherit">When true, look up the hierarchy chain for the inherited custom attribute.</param>
+            <returns>A collection of <see cref="T:System.Attribute"/>s, or an empty collection.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.IAttributeProvider.GetAttributes(System.Type,System.Boolean)">
+            <summary>
+            Returns a collection of attributes, identified by type, or an empty collection if there are no attributes.
+            </summary>
+            <param name="attributeType">The type of the attributes.</param>
+            <param name="inherit">When true, look up the hierarchy chain for the inherited custom attribute.</param>
+            <returns>A collection of <see cref="T:System.Attribute"/>s, or an empty collection.</returns>
+        </member>
+        <member name="T:Newtonsoft.Json.Serialization.JsonArrayContract">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets the <see cref="T:Newtonsoft.Json.JsonConverter"/> for the property.
             If set this converter takes presidence over the contract converter for the property type.
@@ -7762,7 +8612,17 @@
             <param name="reader">The <see cref="T:Newtonsoft.Json.JsonReader"/> containing the JSON Schema to read.</param>
             <returns>The <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> object representing the JSON Schema.</returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="M:Newtonsoft.Json.Schema.JsonSchema.Read(Newtonsoft.Json.JsonReader,Newtonsoft.Json.Schema.JsonSchemaResolver)">
+=======
+        <member name="T:Newtonsoft.Json.Serialization.ExtensionDataGetter">
+            <summary>
+            Gets extension data for an object during serialization.
+            </summary>
+            <param name="o">The object to set extension data on.</param>
+        </member>
+        <member name="T:Newtonsoft.Json.Serialization.JsonDictionaryContract">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Reads a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from the specified <see cref="T:Newtonsoft.Json.JsonReader"/>.
             </summary>
@@ -7883,7 +8743,16 @@
             </summary>
             <value>The maximum.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.ExclusiveMinimum">
+=======
+        <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.CreatorParameters">
+            <summary>
+            Gets a collection of <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> instances that define the parameters used with <see cref="P:Newtonsoft.Json.Serialization.JsonObjectContract.OverrideCreator"/>.
+            </summary>
+        </member>
+        <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.OverrideConstructor">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets a flag indicating whether the value can not equal the number defined by the "minimum" attribute.
             </summary>
@@ -7895,13 +8764,33 @@
             </summary>
             <value>A flag indicating whether the value can not equal the number defined by the "maximum" attribute.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.MinimumItems">
+=======
+        <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.OverrideCreator">
+            <summary>
+            Gets or sets the function used to create the object. When set this function will override <see cref="P:Newtonsoft.Json.Serialization.JsonContract.DefaultCreator"/>.
+            This function is called with a collection of arguments which are defined by the <see cref="P:Newtonsoft.Json.Serialization.JsonObjectContract.CreatorParameters"/> collection.
+            </summary>
+            <value>The function used to create the object.</value>
+        </member>
+        <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.ExtensionDataSetter">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets the minimum number of items.
             </summary>
             <value>The minimum number of items.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.MaximumItems">
+=======
+        <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.ExtensionDataGetter">
+            <summary>
+            Gets or sets the extension data getter.
+            </summary>
+        </member>
+        <member name="T:Newtonsoft.Json.Serialization.JsonPrimitiveContract">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets the maximum number of items.
             </summary>
@@ -7958,7 +8847,17 @@
             </summary>
             <value>The pattern properties.</value>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.AllowAdditionalProperties">
+=======
+        <member name="P:Newtonsoft.Json.Serialization.JsonProperty.AttributeProvider">
+            <summary>
+            Gets or sets the <see cref="T:Newtonsoft.Json.Serialization.IAttributeProvider"/> for this property.
+            </summary>
+            <value>The <see cref="T:Newtonsoft.Json.Serialization.IAttributeProvider"/> for this property.</value>
+        </member>
+        <member name="P:Newtonsoft.Json.Serialization.JsonProperty.PropertyType">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets or sets a value indicating whether additional properties are allowed.
             </summary>
@@ -7974,31 +8873,51 @@
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.Enum">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the a collection of valid enum values allowed.
+=======
+            Gets or sets the member converter.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>A collection of valid enum values allowed.</value>
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.Disallow">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets disallowed types.
+=======
+            Gets or sets a value indicating whether this <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> is ignored.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The disallow types.</value>
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.Default">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the default value.
+=======
+            Gets or sets a value indicating whether this <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> is readable.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The default value.</value>
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.Extends">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the collection of <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> that this schema extends.
+=======
+            Gets or sets a value indicating whether this <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> is writable.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The collection of <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> that this schema extends.</value>
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchema.Format">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the format.
+=======
+            Gets or sets a value indicating whether this <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> has a member attribute.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The format.</value>
         </member>
@@ -8009,14 +8928,22 @@
         </member>
         <member name="M:Newtonsoft.Json.Schema.JsonSchemaGenerator.Generate(System.Type)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from the specified type.
+=======
+            Gets or sets a value indicating whether this <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> is required.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="type">The type to generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from.</param>
             <returns>A <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> generated from the specified type.</returns>
         </member>
         <member name="M:Newtonsoft.Json.Schema.JsonSchemaGenerator.Generate(System.Type,Newtonsoft.Json.Schema.JsonSchemaResolver)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from the specified type.
+=======
+            Gets or sets a value indicating whether this property preserves object references.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="type">The type to generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from.</param>
             <param name="resolver">The <see cref="T:Newtonsoft.Json.Schema.JsonSchemaResolver"/> used to resolve schema references.</param>
@@ -8024,7 +8951,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Schema.JsonSchemaGenerator.Generate(System.Type,System.Boolean)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from the specified type.
+=======
+            Gets or sets the property null value handling.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="type">The type to generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from.</param>
             <param name="rootSchemaNullable">Specify whether the generated root <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> will be nullable.</param>
@@ -8032,7 +8963,11 @@
         </member>
         <member name="M:Newtonsoft.Json.Schema.JsonSchemaGenerator.Generate(System.Type,Newtonsoft.Json.Schema.JsonSchemaResolver,System.Boolean)">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from the specified type.
+=======
+            Gets or sets the property default value handling.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <param name="type">The type to generate a <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/> from.</param>
             <param name="resolver">The <see cref="T:Newtonsoft.Json.Schema.JsonSchemaResolver"/> used to resolve schema references.</param>
@@ -8041,18 +8976,30 @@
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchemaGenerator.UndefinedSchemaIdHandling">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets how undefined schemas are handled by the serializer.
+=======
+            Gets or sets the property reference loop handling.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
         </member>
         <member name="P:Newtonsoft.Json.Schema.JsonSchemaGenerator.ContractResolver">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             Gets or sets the contract resolver.
+=======
+            Gets or sets the property object creation handling.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
             <value>The contract resolver.</value>
         </member>
         <member name="T:Newtonsoft.Json.Schema.JsonSchemaType">
             <summary>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
             The value types allowed by the <see cref="T:Newtonsoft.Json.Schema.JsonSchema"/>.
+=======
+            Gets or sets or sets the type name handling.
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             </summary>
         </member>
         <member name="F:Newtonsoft.Json.Schema.JsonSchemaType.None">
@@ -8136,7 +9083,26 @@
             Gets the constructor parameters required for any non-default constructor
             </summary>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="P:Newtonsoft.Json.Serialization.JsonObjectContract.CreatorParameters">
+=======
+        <member name="M:Newtonsoft.Json.Serialization.JsonTypeReflector.CreateJsonConverterInstance(System.Type,System.Object[])">
+            <summary>
+            Lookup and create an instance of the JsonConverter type described by the argument.
+            </summary>
+            <param name="converterType">The JsonConverter type to create.</param>
+            <param name="converterArgs">Optional arguments to pass to an initializing constructor of the JsonConverter.
+            If null, the default constructor is used.</param>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.JsonTypeReflector.GetJsonConverterCreator(System.Type)">
+            <summary>
+            Create a factory function that can be used to create instances of a JsonConverter described by the 
+            argument type.  The returned function can then be used to either invoke the converter's default ctor, or any 
+            parameterized constructors by way of an object array.
+            </summary>
+        </member>
+        <member name="T:Newtonsoft.Json.Serialization.MemoryTraceWriter">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             Gets a collection of <see cref="T:Newtonsoft.Json.Serialization.JsonProperty"/> instances that define the parameters used with <see cref="P:Newtonsoft.Json.Serialization.JsonObjectContract.OverrideCreator"/>.
             </summary>
@@ -8182,6 +9148,31 @@
             Initializes a new instance of the <see cref="T:Newtonsoft.Json.Serialization.JsonStringContract"/> class.
             </summary>
             <param name="underlyingType">The underlying type for the contract.</param>
+        </member>
+        <member name="T:Newtonsoft.Json.Serialization.ReflectionAttributeProvider">
+            <summary>
+            Provides methods to get attributes from a <see cref="T:System.Type"/>, <see cref="T:System.Reflection.MemberInfo"/>, <see cref="T:System.Reflection.ParameterInfo"/> or <see cref="T:System.Reflection.Assembly"/>.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.ReflectionAttributeProvider.#ctor(System.Object)">
+            <summary>
+            Initializes a new instance of the <see cref="T:Newtonsoft.Json.Serialization.ReflectionAttributeProvider"/> class.
+            </summary>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.ReflectionAttributeProvider.GetAttributes(System.Boolean)">
+            <summary>
+            Returns a collection of all of the attributes, or an empty collection if there are no attributes.
+            </summary>
+            <param name="inherit">When true, look up the hierarchy chain for the inherited custom attribute.</param>
+            <returns>A collection of <see cref="T:System.Attribute"/>s, or an empty collection.</returns>
+        </member>
+        <member name="M:Newtonsoft.Json.Serialization.ReflectionAttributeProvider.GetAttributes(System.Type,System.Boolean)">
+            <summary>
+            Returns a collection of attributes, identified by type, or an empty collection if there are no attributes.
+            </summary>
+            <param name="attributeType">The type of the attributes.</param>
+            <param name="inherit">When true, look up the hierarchy chain for the inherited custom attribute.</param>
+            <returns>A collection of <see cref="T:System.Attribute"/>s, or an empty collection.</returns>
         </member>
         <member name="T:Newtonsoft.Json.Serialization.ReflectionValueProvider">
             <summary>
@@ -8301,6 +9292,7 @@
             <param name="enumType">The enum type to get names and values for.</param>
             <returns></returns>
         </member>
+<<<<<<< HEAD:BaoDatShop/packages/Newtonsoft.Json.6.0.4/lib/net40/Newtonsoft.Json.xml
         <member name="T:Newtonsoft.Json.JsonToken">
             <summary>
             Specifies the type of Json token.
@@ -8312,6 +9304,9 @@
             </summary>
         </member>
         <member name="F:Newtonsoft.Json.JsonToken.StartObject">
+=======
+        <member name="M:Newtonsoft.Json.Utilities.ConvertUtils.ConvertOrCast(System.Object,System.Globalization.CultureInfo,System.Type)">
+>>>>>>> origin/cnm_hmdat:BaoDatShop/BaoDatShop.Web/bin/Newtonsoft.Json.xml
             <summary>
             An object start token.
             </summary>

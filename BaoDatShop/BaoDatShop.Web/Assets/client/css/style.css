@@ -63,7 +63,11 @@ ul.support li a {
 }
 .header-bottom-left{
 	float: left;
+<<<<<<< HEAD
 	width: 53%;
+=======
+	width: 55%;
+>>>>>>> origin/cnm_hmdat
 }
 .logo{
 	float:left;
@@ -72,7 +76,11 @@ ul.support li a {
 }
 .header-bottom-right{
 	float: right;
+<<<<<<< HEAD
 	width: 46%;
+=======
+	width: 37%;
+>>>>>>> origin/cnm_hmdat
 	text-align: center;
 	padding-top:1.7em;
 }

@@ -3,10 +3,14 @@
 (function () {
     angular.module('baodatshop',
         ['baodatshop.products',
+<<<<<<< HEAD
          'baodatshop.application_groups',
          'baodatshop.product_categories',
          'baodatshop.application_roles',
          'baodatshop.application_users',
+=======
+         'baodatshop.product_categories',
+>>>>>>> origin/cnm_hmdat
          'baodatshop.common'])
         .config(config)
         .config(configAuthentication);

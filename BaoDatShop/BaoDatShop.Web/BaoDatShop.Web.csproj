@@ -59,6 +59,7 @@
       <HintPath>..\packages\AutoMapper.4.2.1\lib\net45\AutoMapper.dll</HintPath>
       <Private>True</Private>
     </Reference>
+<<<<<<< HEAD
     <Reference Include="BotDetect, Version=4.0.0.0, Culture=neutral, PublicKeyToken=74616036388b765f, processorArchitecture=MSIL">
       <HintPath>..\packages\Captcha.4.0.1\lib\net45\BotDetect.dll</HintPath>
       <Private>True</Private>
@@ -67,6 +68,8 @@
       <HintPath>..\packages\Captcha.4.0.1\lib\net45\BotDetect.Web.Mvc.dll</HintPath>
       <Private>True</Private>
     </Reference>
+=======
+>>>>>>> origin/cnm_hmdat
     <Reference Include="CKFinder, Version=2.6.0.2792, Culture=neutral, PublicKeyToken=579e7adc719a1423, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>Libs\CKFinder.dll</HintPath>
@@ -135,6 +138,7 @@
     <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.3\lib\net45\System.Web.Helpers.dll</HintPath>
+<<<<<<< HEAD
       <Private>True</Private>
     </Reference>
     <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
@@ -145,6 +149,14 @@
       <HintPath>..\packages\Microsoft.AspNet.WebApi.Owin.5.2.3\lib\net45\System.Web.Http.Owin.dll</HintPath>
       <Private>True</Private>
     </Reference>
+=======
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System.Web.Http, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.5.2.3\lib\net45\System.Web.Http.dll</HintPath>
+    </Reference>
+>>>>>>> origin/cnm_hmdat
     <Reference Include="System.Web.Mvc, Version=5.2.3.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Mvc.5.2.3\lib\net45\System.Web.Mvc.dll</HintPath>
       <Private>True</Private>
@@ -177,12 +189,21 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System.Net.Http">
+<<<<<<< HEAD
     </Reference>
     <Reference Include="System.Net.Http.WebRequest">
     </Reference>
     <Reference Include="System.Web.Optimization">
       <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
+=======
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest">
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.1\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+>>>>>>> origin/cnm_hmdat
     <Reference Include="System.Xml.Linq" />
     <Reference Include="WebGrease">
       <Private>True</Private>
@@ -203,9 +224,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Api\AccountController.cs" />
+<<<<<<< HEAD
     <Compile Include="Api\ApplicationGroupController.cs" />
     <Compile Include="Api\ApplicationRoleController.cs" />
     <Compile Include="Api\ApplicationUserController.cs" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Compile Include="Api\HomeController.cs" />
     <Compile Include="Api\PostCategoryController.cs" />
     <Compile Include="Api\ProductCategoryController.cs" />
@@ -221,12 +245,18 @@
     <Compile Include="Controllers\AboutController.cs" />
     <Compile Include="Controllers\AccountController.cs" />
     <Compile Include="Controllers\AdminController.cs" />
+<<<<<<< HEAD
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\PageController.cs" />
     <Compile Include="Controllers\PostController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
     <Compile Include="Controllers\ShoppingCartController.cs" />
+=======
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\PostController.cs" />
+    <Compile Include="Controllers\ProductController.cs" />
+>>>>>>> origin/cnm_hmdat
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -234,6 +264,7 @@
     <Compile Include="Infrastructure\Core\PaginationSet.cs" />
     <Compile Include="Infrastructure\Extensions\EntityExtensions.cs" />
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\ApplicationGroupViewModel.cs" />
     <Compile Include="Models\ApplicationRoleViewModel.cs" />
     <Compile Include="Models\ApplicationUserViewModel.cs" />
@@ -245,20 +276,28 @@
     <Compile Include="Models\OrderDetailViewModel.cs" />
     <Compile Include="Models\OrderViewModel.cs" />
     <Compile Include="Models\PageViewModel.cs" />
+=======
+    <Compile Include="Models\FooterViewModel.cs" />
+    <Compile Include="Models\HomeViewModel.cs" />
+>>>>>>> origin/cnm_hmdat
     <Compile Include="Models\PostCategoryViewModel.cs" />
     <Compile Include="Models\PostTagViewModel.cs" />
     <Compile Include="Models\PostViewModel.cs" />
     <Compile Include="Models\ProductCategoryViewModel.cs" />
     <Compile Include="Models\ProductTagViewModel.cs" />
     <Compile Include="Models\ProductViewModel.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\RegisterViewModel.cs" />
     <Compile Include="Models\ShoppingCartViewModel.cs" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Compile Include="Models\SlideViewModel.cs" />
     <Compile Include="Models\TagViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.js" />
+<<<<<<< HEAD
     <Content Include="app\components\application_groups\applicationGroupAddController.js" />
     <Content Include="app\components\application_groups\applicationGroupAddView.html" />
     <Content Include="app\components\application_groups\applicationGroupEditController.js" />
@@ -280,6 +319,8 @@
     <Content Include="app\components\application_users\applicationUserListController.js" />
     <Content Include="app\components\application_users\applicationUserListView.html" />
     <Content Include="app\components\application_users\applicationUsers.module.js" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="app\components\home\homeController.js" />
     <Content Include="app\components\home\homeView.html" />
     <Content Include="app\components\home\rootController.js" />
@@ -298,7 +339,10 @@
     <Content Include="app\components\product_categories\productCategoryEditView.html" />
     <Content Include="app\components\product_categories\productCategoryListController.js" />
     <Content Include="app\components\product_categories\productCategoryListView.html" />
+<<<<<<< HEAD
     <Content Include="app\shared\directives\asDateDirective.js" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="app\shared\directives\pagerDirective.html" />
     <Content Include="app\shared\directives\pagerDirective.js" />
     <Content Include="app\shared\filters\statusFilter.js" />
@@ -433,8 +477,11 @@
     <Content Include="Assets\admin\libs\bootstrap\js\tooltip.js" />
     <Content Include="Assets\admin\libs\bootstrap\js\transition.js" />
     <Content Include="Assets\admin\libs\bootstrap\package.js" />
+<<<<<<< HEAD
     <Content Include="Assets\admin\libs\checklist-model\checklist-model.js" />
     <Content Include="Assets\admin\libs\checklist-model\LICENSE.txt" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\ckeditor\adapters\jquery.js" />
     <Content Include="Assets\admin\libs\ckeditor\ckeditor.js" />
     <Content Include="Assets\admin\libs\ckeditor\config.js" />
@@ -3723,6 +3770,7 @@
     <Content Include="Assets\admin\libs\ckfinder\skins\v1\uipanel.css" />
     <Content Include="Assets\admin\libs\ckfinder\translations.txt" />
     <Content Include="Assets\admin\libs\fastclick\lib\fastclick.js" />
+<<<<<<< HEAD
     <Content Include="Assets\admin\libs\jquery-ui\.gitignore" />
     <Content Include="Assets\admin\libs\jquery-ui\AUTHORS.txt" />
     <Content Include="Assets\admin\libs\jquery-ui\jquery-ui.js" />
@@ -4542,6 +4590,8 @@
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_fi.js" />
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_nl.js" />
     <Content Include="Assets\admin\libs\jquery-validation\src\localization\methods_pt.js" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\jquery\AUTHORS.txt" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.js" />
     <Content Include="Assets\admin\libs\jquery\dist\jquery.min.js" />
@@ -4645,10 +4695,13 @@
     <Content Include="Assets\admin\libs\jquery\src\var\support.js" />
     <Content Include="Assets\admin\libs\jquery\src\var\toString.js" />
     <Content Include="Assets\admin\libs\jquery\src\wrap.js" />
+<<<<<<< HEAD
     <Content Include="Assets\admin\libs\mustache\mustache.js" />
     <Content Include="Assets\admin\libs\mustache\mustache.min.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.js" />
     <Content Include="Assets\admin\libs\mustache\spec\_files\bom_as_whitespace.txt" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\ng-ckeditor\.gitignore" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\1.html" />
     <Content Include="Assets\admin\libs\ng-ckeditor\examples\css\bootstrap.css" />
@@ -4884,6 +4937,7 @@
     <Content Include="Assets\admin\libs\ngBootbox\examples\index.html" />
     <Content Include="Assets\admin\libs\ngBootbox\gulpfile.js" />
     <Content Include="Assets\admin\libs\ngBootbox\ngBootbox.js" />
+<<<<<<< HEAD
     <Content Include="Assets\admin\libs\numeral\.gitignore" />
     <Content Include="Assets\admin\libs\numeral\Gruntfile.js" />
     <Content Include="Assets\admin\libs\numeral\karma-ci.conf.js" />
@@ -4987,6 +5041,8 @@
     <Content Include="Assets\admin\libs\numeral\tests\numeral\misc.js" />
     <Content Include="Assets\admin\libs\numeral\tests\numeral\unformat.js" />
     <Content Include="Assets\admin\libs\numeral\tests\numeral\validate.js" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\admin\libs\slimScroll\examples\allow-page-scroll.html" />
     <Content Include="Assets\admin\libs\slimScroll\examples\chaining.html" />
     <Content Include="Assets\admin\libs\slimScroll\examples\disable-fade-out.html" />
@@ -5012,7 +5068,10 @@
     <Content Include="Assets\admin\libs\toastr\toastr.min.css" />
     <Content Include="Assets\admin\libs\toastr\toastr.min.js" />
     <Content Include="Assets\client\css\bootstrap.css" />
+<<<<<<< HEAD
     <Content Include="Assets\client\css\custom.css" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\client\css\etalage.css" />
     <Content Include="Assets\client\css\form.css" />
     <Content Include="Assets\client\css\style.css" />
@@ -5072,15 +5131,21 @@
     <Content Include="Assets\client\images\wa.jpg" />
     <Content Include="Assets\client\images\wat.jpg" />
     <Content Include="Assets\client\images\zoom.png" />
+<<<<<<< HEAD
     <Content Include="Assets\client\js\common.js" />
     <Content Include="Assets\client\js\controllers\contact.js" />
     <Content Include="Assets\client\js\controllers\shoppingCart.js" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Assets\client\js\jquery.etalage.min.js" />
     <Content Include="Assets\client\js\jquery.flexisel.js" />
     <Content Include="Assets\client\js\jquery.min.js" />
     <Content Include="Assets\client\js\jquery.wmuSlider.js" />
+<<<<<<< HEAD
     <Content Include="Assets\client\template\contact_template.html" />
     <Content Include="Assets\client\template\newuser.html" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -5106,7 +5171,10 @@
     <Folder Include="app\shared\footer\" />
     <Folder Include="app\shared\navigation\" />
     <Folder Include="Assets\admin\js\pages\" />
+<<<<<<< HEAD
     <Folder Include="Assets\admin\libs\checklist-model\test\" />
+=======
+>>>>>>> origin/cnm_hmdat
     <Folder Include="UploadedFiles\" />
   </ItemGroup>
   <ItemGroup>
@@ -5396,9 +5464,13 @@
     <Content Include="AppSettings.config">
       <SubType>Designer</SubType>
     </Content>
+<<<<<<< HEAD
     <Content Include="ConnectionStrings.config">
       <SubType>Designer</SubType>
     </Content>
+=======
+    <Content Include="ConnectionStrings.config" />
+>>>>>>> origin/cnm_hmdat
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\Shared\Category.cshtml" />
@@ -5450,6 +5522,7 @@
     <Content Include="Assets\client\font-awesome-4.6.3\scss\_stacked.scss" />
     <Content Include="Assets\client\font-awesome-4.6.3\scss\_variables.scss" />
   </ItemGroup>
+<<<<<<< HEAD
   <ItemGroup>
     <Content Include="Assets\admin\libs\jquery-ui\.bower.json" />
     <Content Include="Assets\admin\libs\jquery-ui\bower.json" />
@@ -5532,6 +5605,8 @@
     <Content Include="Assets\admin\libs\checklist-model\bower.json" />
     <Content Include="Assets\admin\libs\checklist-model\readme.md" />
   </ItemGroup>
+=======
+>>>>>>> origin/cnm_hmdat
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

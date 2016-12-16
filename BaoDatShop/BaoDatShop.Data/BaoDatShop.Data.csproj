@@ -85,6 +85,7 @@
     <Compile Include="Migrations\201611281551168_AddContentToSlide.Designer.cs">
       <DependentUpon>201611281551168_AddContentToSlide.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201611302009431_AddMoreQuantitty.cs" />
     <Compile Include="Migrations\201611302009431_AddMoreQuantitty.Designer.cs">
       <DependentUpon>201611302009431_AddMoreQuantitty.cs</DependentUpon>
@@ -130,6 +131,12 @@
     <Compile Include="Repositories\ContactDetailRepository.cs" />
     <Compile Include="Repositories\ErrorRepository.cs" />
     <Compile Include="Repositories\FeedbackRepository.cs" />
+=======
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BaoDatShopDbContext.cs" />
+    <Compile Include="Repositories\ErrorRepository.cs" />
+>>>>>>> origin/cnm_hmdat
     <Compile Include="Repositories\FooterRepository.cs" />
     <Compile Include="Repositories\MenuGroupRepository.cs" />
     <Compile Include="Repositories\MenuRepository.cs" />
@@ -184,6 +191,7 @@
     <EmbeddedResource Include="Migrations\201611281551168_AddContentToSlide.resx">
       <DependentUpon>201611281551168_AddContentToSlide.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201611302009431_AddMoreQuantitty.resx">
       <DependentUpon>201611302009431_AddMoreQuantitty.cs</DependentUpon>
     </EmbeddedResource>
@@ -211,6 +219,8 @@
     <EmbeddedResource Include="Migrations\201612141458219_AddGroupUser1.resx">
       <DependentUpon>201612141458219_AddGroupUser1.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> origin/cnm_hmdat
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

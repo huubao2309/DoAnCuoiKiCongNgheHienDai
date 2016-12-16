@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using BotDetect.Web.Mvc;
 using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
@@ -14,11 +15,19 @@ using BaoDatShop.Common;
 using BaoDatShop.Model.Models;
 using BaoDatShop.Web.App_Start;
 using BaoDatShop.Web.Models;
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+using System.Web.Mvc;
+>>>>>>> origin/cnm_hmdat
 
 namespace BaoDatShop.Web.Controllers
 {
     public class AccountController : Controller
     {
+<<<<<<< HEAD
         private ApplicationSignInManager _signInManager;
         private ApplicationUserManager _userManager;
 
@@ -159,5 +168,12 @@ namespace BaoDatShop.Web.Controllers
             authenticationManager.SignOut();
             return RedirectToAction("Index","Home");
         }
+=======
+        // GET: Account
+        public ActionResult Login()
+        {
+            return View();
+        }
+>>>>>>> origin/cnm_hmdat
     }
 }

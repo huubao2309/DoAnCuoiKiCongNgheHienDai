@@ -15,6 +15,9 @@ D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Iden
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+<<<<<<< HEAD
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll.config
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.dll
 D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.xml
+=======
+>>>>>>> origin/cnm_hmdat

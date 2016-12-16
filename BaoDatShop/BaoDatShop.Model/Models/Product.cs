@@ -47,10 +47,13 @@ namespace BaoDatShop.Model.Models
 
         public string Tags { set; get; }
 
+<<<<<<< HEAD
         public int Quantity { set; get; }
 
         public decimal OriginalPrice { set; get; }
 
+=======
+>>>>>>> origin/cnm_hmdat
         [ForeignKey("CategoryID")]
         public virtual ProductCategory ProductCategory { set; get; }
 

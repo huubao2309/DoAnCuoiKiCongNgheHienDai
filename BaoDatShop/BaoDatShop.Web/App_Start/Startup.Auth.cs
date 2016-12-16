@@ -22,11 +22,18 @@ namespace BaoDatShop.Web.App_Start
         {
             // Configure the db context, user manager and signin manager to use a single instance per request
             app.CreatePerOwinContext(BaoDatShopDbContext.Create);
+<<<<<<< HEAD
 
             app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
             app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
             app.CreatePerOwinContext<UserManager<ApplicationUser>>(CreateManager);
 
+=======
+            app.CreatePerOwinContext<ApplicationUserManager>(ApplicationUserManager.Create);
+            app.CreatePerOwinContext<ApplicationSignInManager>(ApplicationSignInManager.Create);
+
+            app.CreatePerOwinContext<UserManager<ApplicationUser>>(CreateManager);
+>>>>>>> origin/cnm_hmdat
             app.UseOAuthAuthorizationServer(new OAuthAuthorizationServerOptions
             {
                 TokenEndpointPath = new PathString("/oauth/token"),
@@ -37,6 +44,7 @@ namespace BaoDatShop.Web.App_Start
             });
             app.UseOAuthBearerAuthentication(new OAuthBearerAuthenticationOptions());
 
+<<<<<<< HEAD
             // Configure the sign in cookie
             app.UseCookieAuthentication(new CookieAuthenticationOptions
             {
@@ -53,6 +61,8 @@ namespace BaoDatShop.Web.App_Start
             });
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
+=======
+>>>>>>> origin/cnm_hmdat
             // Uncomment the following lines to enable logging in with third party login providers
             //app.UseMicrosoftAccountAuthentication(
             //    clientId: "",
