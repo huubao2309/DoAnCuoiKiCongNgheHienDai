@@ -3798,8 +3798,8 @@ function hashKey(obj, nextUidFn) {
 /**
  * HashMap which can use objects as keys
  */
-function HashMap(array, isolatedUid) {
-  if (isolatedUid) {
+function HashMap(array, isolaBaoDatid) {
+  if (isolaBaoDatid) {
     var uid = 0;
     this.nextUid = function() {
       return ++uid;
@@ -19022,8 +19022,8 @@ function $SceProvider() {
      *     {@link ng.$sceDelegate#trustAs `$sceDelegate.trustAs($sce.URL, value)`}
      *
      * @param {*} value The value to trustAs.
-     * @returns {*} An object that can be passed to {@link ng.$sce#getTrustedUrl
-     *     $sce.getTrustedUrl(value)} to obtain the original value.  (privileged directives
+     * @returns {*} An object that can be passed to {@link ng.$sce#getTrusBaoDatrl
+     *     $sce.getTrusBaoDatrl(value)} to obtain the original value.  (privileged directives
      *     only accept expressions that are either literal constants or are the
      *     return value of {@link ng.$sce#trustAs $sce.trustAs}.)
      */
@@ -19102,10 +19102,10 @@ function $SceProvider() {
 
     /**
      * @ngdoc method
-     * @name $sce#getTrustedUrl
+     * @name $sce#getTrusBaoDatrl
      *
      * @description
-     * Shorthand method.  `$sce.getTrustedUrl(value)` →
+     * Shorthand method.  `$sce.getTrusBaoDatrl(value)` →
      *     {@link ng.$sceDelegate#getTrusted `$sceDelegate.getTrusted($sce.URL, value)`}
      *
      * @param {*} value The value to pass to `$sce.getTrusted`.
@@ -19379,7 +19379,7 @@ function $TemplateRequestProvider() {
    * `$http` and, upon success, stores the contents inside of `$templateCache`. If the HTTP request
    * fails or the response data of the HTTP request is empty, a `$compile` error will be thrown (the
    * exception can be thwarted by setting the 2nd parameter of the function to true). Note that the
-   * contents of `$templateCache` are trusted, so the call to `$sce.getTrustedUrl(tpl)` is omitted
+   * contents of `$templateCache` are trusted, so the call to `$sce.getTrusBaoDatrl(tpl)` is omitted
    * when `tpl` is of type string and `$templateCache` has the matching entry.
    *
    * If you want to pass custom options to the `$http` service, such as setting the Accept header you

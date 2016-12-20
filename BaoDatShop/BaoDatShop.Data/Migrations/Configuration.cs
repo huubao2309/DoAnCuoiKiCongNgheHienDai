@@ -27,7 +27,39 @@
             CreatePage(context);
             CreateContactDetail(context);
 
+            CreateConfigTitle(context);
 
+
+        }
+        private void CreateConfigTitle(BaoDatShopDbContext context)
+        {
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeTitle"))
+            {
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeTitle",
+                    ValueString = "Trang chủ BaoDatShop",
+
+                });
+            }
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeMetaKeyword"))
+            {
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeMetaKeyword",
+                    ValueString = "Trang chủ BaoDatShop",
+
+                });
+            }
+            if (!context.SystemConfigs.Any(x => x.Code == "HomeMetaDescription"))
+            {
+                context.SystemConfigs.Add(new SystemConfig()
+                {
+                    Code = "HomeMetaDescription",
+                    ValueString = "Trang chủ BaoDatShop",
+
+                });
+            }
         }
         private void CreateUser(BaoDatShopDbContext context)
         {
@@ -156,11 +188,11 @@
                 {
                     var contactDetail = new BaoDatShop.Model.Models.ContactDetail()
                     {
-                        Name = "Shop thời trang Bảo Đạt",
-                        Address = "227 Nguyễn Văn Cừ, Quận 5, TP.Hồ Chí Minh",
-                        Email = "baodatshop@gmail.com",
+                        Name = "Shop thời trang BaoDat",
+                        Address = "227 Nguyễn Văn Cừ",
+                        Email = "huubao2309@gmail.com",
                         Lat = 10.762796,
-                        Lng= 106.682357,
+                        Lng= 106.682324,
                         Phone = "0979313803",
                         Website = "http://baodatshop.com.vn",
                         Other = "",

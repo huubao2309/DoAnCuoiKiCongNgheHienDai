@@ -7,6 +7,7 @@
          'baodatshop.product_categories',
          'baodatshop.application_roles',
          'baodatshop.application_users',
+           'baodatshop.statistics',
          'baodatshop.common'])
         .config(config)
         .config(configAuthentication);

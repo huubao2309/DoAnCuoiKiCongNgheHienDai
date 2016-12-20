@@ -7,6 +7,7 @@ namespace BaoDatShop.Service
     public interface IFeedbackService
     {
         Feedback Create(Feedback feedback);
+
         void Save();
     }
 
