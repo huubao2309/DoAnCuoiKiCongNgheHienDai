@@ -1,5 +1,0 @@
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.csprojResolveAssemblyReference.cache
