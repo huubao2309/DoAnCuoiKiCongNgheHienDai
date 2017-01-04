@@ -1,5 +1,5 @@
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\bin\Debug\BaoDatShop.Common.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Debug\BaoDatShop.Common.pdb

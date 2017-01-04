@@ -1,13 +1,14 @@
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll.config
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\BaoDatShop.Model.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Model\obj\Debug\BaoDatShop.Model.pdb

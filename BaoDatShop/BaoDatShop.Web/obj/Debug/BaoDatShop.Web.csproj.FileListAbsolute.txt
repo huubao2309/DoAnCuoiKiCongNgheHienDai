@@ -1,74 +1,102 @@
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.csprojResolveAssemblyReference.cache
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll.config
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.Mvc.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.WebApi.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\AutoMapper.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Data.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Service.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BotDetect.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BotDetect.Web.Mvc.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\CKFinder.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.SqlServer.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Core.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Web.Infrastructure.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Owin.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Helpers.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.Owin.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.WebHost.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Mvc.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Optimization.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Razor.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Deployment.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Razor.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\WebGrease.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Data.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Model.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Service.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.Mvc.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.WebApi.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\AutoMapper.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.SqlServer.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Core.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Helpers.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.Owin.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.WebHost.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Mvc.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Optimization.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.Razor.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Deployment.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Razor.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\csc.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\vbc.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\VBCSCompiler.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\csc.exe.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\csc.rsp
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\csi.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\csi.rsp
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.AppContext.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\vbc.exe.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\roslyn\vbc.rsp
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Web.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.Mvc.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.WebApi.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\AutoMapper.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Data.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Model.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Service.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BotDetect.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BotDetect.Web.Mvc.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\CKFinder.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.SqlServer.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Owin.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Owin.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Helpers.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.Owin.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.WebHost.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Mvc.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Optimization.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Razor.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Deployment.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Razor.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\WebGrease.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Common.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Data.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Model.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\BaoDatShop.Service.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Antlr3.Runtime.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.Mvc.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Autofac.Integration.WebApi.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\AutoMapper.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\EntityFramework.SqlServer.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.AspNet.Identity.Owin.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.Cookies.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Microsoft.Owin.Security.OAuth.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\Newtonsoft.Json.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Net.Http.Formatting.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Helpers.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.Owin.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Http.WebHost.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Mvc.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Optimization.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.Razor.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Deployment.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\bin\System.Web.WebPages.Razor.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Web\obj\Debug\BaoDatShop.Web.pdb

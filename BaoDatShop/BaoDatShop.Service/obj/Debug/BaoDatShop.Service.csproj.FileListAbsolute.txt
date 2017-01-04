@@ -1,22 +1,34 @@
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll.config
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Newtonsoft.Json.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.pdb
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\bin\Debug\Newtonsoft.Json.xml
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.csprojResolveAssemblyReference.cache
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.dll
-D:\Source CNHĐ CK\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\csc.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\System.Collections.Immutable.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\System.Reflection.Metadata.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\vbc.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\VBCSCompiler.exe
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\roslyn\VBCSCompiler.exe.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll.config
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Service.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Newtonsoft.Json.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Common.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Data.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\BaoDatShop.Model.pdb
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\bin\Debug\Newtonsoft.Json.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.csprojResolveAssemblyReference.cache
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.dll
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Service\obj\Debug\BaoDatShop.Service.pdb

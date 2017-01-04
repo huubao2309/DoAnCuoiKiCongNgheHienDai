@@ -38,6 +38,15 @@ namespace BaoDatShop.Web.Controllers
             return View(viewModel);
         }
 
+        //[Route("create")]
+        //[HttpPost]
+        //[AllowAnonymous]
+        //public ActionResult Create (Picture picture)
+        //{
+            
+        //    return View();
+        //}
+
         public ActionResult Category(int id, int page = 1, string sort = "")
         {
             int pageSize = int.Parse(ConfigHelper.GetByKey("PageSize"));
