@@ -12,6 +12,7 @@ using BaoDatShop.Web.Infrastructure.Extensions;
 namespace BaoDatShop.Web.Api
 {
     [RoutePrefix("api/postcategory")]
+    [Authorize]
     public class PostCategoryController : ApiControllerBase
     {
         IPostCategoryService _postCategoryService;

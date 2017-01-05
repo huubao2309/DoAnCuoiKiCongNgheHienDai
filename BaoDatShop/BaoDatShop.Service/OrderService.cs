@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BaoDatShop.Common.ViewModels;
 using BaoDatShop.Data.Infrastructure;
 using BaoDatShop.Data.Repositories;
 using BaoDatShop.Model.Models;
@@ -37,7 +38,6 @@ namespace BaoDatShop.Service
                     orderDetail.OrderID = order.ID;
                     _orderDetailRepository.Add(orderDetail);
                 }
-                _unitOfWork.Commit();
                 return true;
             }
             catch (Exception ex)
@@ -45,5 +45,7 @@ namespace BaoDatShop.Service
                 throw;
             }
         }
+
+        
     }
 }

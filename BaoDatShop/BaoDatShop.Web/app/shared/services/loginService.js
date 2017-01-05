@@ -19,7 +19,6 @@
                 authenticationService.setTokenInfo(userInfo);
                 authData.authenticationData.IsAuthenticated = true;
                 authData.authenticationData.userName = userName;
-                console.log('success login:' + userInfo.accessToken);
                 deferred.resolve(null);
             })
             .error(function (err, status) {

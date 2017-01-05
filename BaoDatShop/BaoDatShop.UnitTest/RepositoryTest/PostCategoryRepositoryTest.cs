@@ -40,7 +40,7 @@ namespace BaoDatShop.UnitTest.RepositoryTest
             unitOfWork.Commit();
 
             Assert.IsNotNull(result);
-            Assert.AreEqual(3, result.ID);
+            Assert.AreEqual(2, result.ID);
         }
 
     }
