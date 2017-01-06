@@ -5122,6 +5122,7 @@
     <Content Include="Assets\admin\libs\Chart.js\.bower.json" />
     <Content Include="Assets\admin\libs\Chart.js\bower.json" />
     <None Include="Properties\PublishProfiles\publish-web.pubxml" />
+    <None Include="Properties\PublishProfiles\publish-WS.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
