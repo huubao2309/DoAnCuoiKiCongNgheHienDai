@@ -177,12 +177,14 @@ ul.kid-menu{
 	padding: 0;
 	list-style: none;
 	margin: 0;
-	background: #FBFBFC;
+    background: #ddd;
 }
+
 ul {
 	padding: 0;
 	list-style: none;
 }
+
 .menu > li > a {
 	width: 100%;
 	line-height: 3.5em;
@@ -194,26 +196,35 @@ ul {
 	text-decoration:none;
 	border-bottom: 1px solid #ddd;
 	font-weight:700;
+    background: #FBFBFC;
 }
+
 .menu ul li a {	
-	width: 100%;
+	display: none;
+}
+
+.menu li:hover ul li a {
+    width: 100%;
 	display: block;
 	position: relative;
 	font-size:1.1em;
-	font-weight: 400;
 	color: #000;
 	text-decoration:none;
-	border-bottom: 1px solid #ddd;
-	font-weight:700;
+    font-style: italic;
 	line-height: 3.5em;
 	text-indent: 1.2em;
 }
+
 .menu ul li a:hover{
-	background: #1DBAA5;
+	background: #1A95D5;
+    color: #fff;
 }
+
 .menu > li > a:hover, .menu > li > a.active {
-	background:#fff;
+	background:#1A95D5;
+    color: #fff;
 }
+
 .menu ul.kid-menu li a{
 	border-bottom: none;
 }
@@ -1701,14 +1712,7 @@ img.banner-bag {
 .register {
 	padding: 1em 0 0em;
 }
-.menu ul li a {
-	font-size: 1em;
-	line-height: 2.5em;
-}
-.menu > li > a {
-	font-size: 1em;
-	line-height: 2.5em;
-}
+
  .etalage_zoom_area{
 	width:10px !important;
 }

@@ -93,18 +93,18 @@
         <div class="form-group">
           <label for="inputEmail3" class="col-sm-2 control-label">Hình ảnh</label>
           <div class="col-sm-10">
-            <input type="text" class="form-control" name="image" ng-model="product.Image">
-            <span ng-show="frmAddProduct.image.$error.maxlength" class="has-error">Hình ảnh chỉ được 256 ký tự</span>
-            <button class="btn btn-default" type="button" ng-click="ChooseImage()">Chọn ảnh</button>
+              <input type="text" class="form-control" name="image" ng-model="product.Image">
+              <span ng-show="frmUpdateProduct.image.$error.maxlength" class="has-error">Hình ảnh chỉ được 256 ký tự</span>
+              <button class="btn btn-default" type="button" ng-click="ChooseImage()">Upload image</button>
           </div>
         </div>
         <div class="form-group">
           <label for="inputEmail3" class="col-sm-2 control-label">Thêm ảnh</label>
           <div class="col-sm-10">
-            <ul class="list-inline">
-              <li ng-repeat="img in moreImages"><img ng-src="{{img}}" width="100" /></li>
-            </ul>
-            <button class="btn btn-default" type="button" ng-click="ChooseMoreImage()">Chọn ảnh</button>
+              <ul class="list-inline">
+                  <li ng-repeat="img in moreImages"><img ng-src="{{img}}" width="100" /></li>
+              </ul>
+              <button class="btn btn-default" type="button" ng-click="ChooseMoreImage()">Upload multiple images</button>
           </div>
         </div>
         <div class="form-group">
