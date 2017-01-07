@@ -44,23 +44,23 @@
             });
         }
         $scope.ChooseImage = function () {
-            var finder = new CKFinder();
-            finder.selectActionFunction = function (fileUrl) {
-                $scope.$apply(function () {
-                    $scope.product.Image = fileUrl;
-                })
-            }
-            finder.popup();
+            cloudinary.openUploadWidget({ cloud_name: 'hcmus-edu', upload_preset: 'pczoogcr' },
+              function (error, result) {
+                  $scope.$apply(function () {
+                      $scope.product.Image = result[0].url;
+                  })
+              });
         }
-        $scope.ChooseMoreImage = function () {
-            var finder = new CKFinder();
-            finder.selectActionFunction = function (fileUrl) {
-                $scope.$apply(function () {
-                    $scope.moreImages.push(fileUrl);
-                })
 
-            }
-            finder.popup();
+        $scope.ChooseMoreImage = function () {
+            cloudinary.openUploadWidget({ cloud_name: 'hcmus-edu', upload_preset: 'pczoogcr' },
+              function (error, result) {
+                  $scope.$apply(function () {
+                      for (var x in result) {
+                          $scope.moreImages.push(result[x].url)
+                      }
+                  })
+              });
         }
         loadProductCategory();
         loadProductDetail();
