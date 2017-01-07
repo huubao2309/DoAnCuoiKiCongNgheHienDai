@@ -118,6 +118,14 @@
       <HintPath>..\packages\Microsoft.Owin.Security.Cookies.3.0.1\lib\net45\Microsoft.Owin.Security.Cookies.dll</HintPath>
       <Private>True</Private>
     </Reference>
+    <Reference Include="Microsoft.Owin.Security.Facebook, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Facebook.3.0.1\lib\net45\Microsoft.Owin.Security.Facebook.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Microsoft.Owin.Security.Google, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Owin.Security.Google.3.0.1\lib\net45\Microsoft.Owin.Security.Google.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.Owin.Security.OAuth, Version=3.0.1.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Owin.Security.OAuth.3.0.1\lib\net45\Microsoft.Owin.Security.OAuth.dll</HintPath>
       <Private>True</Private>
@@ -244,6 +252,7 @@
     <Compile Include="Models\ApplicationRoleViewModel.cs" />
     <Compile Include="Models\ApplicationUserViewModel.cs" />
     <Compile Include="Models\ContactDetailViewModel.cs" />
+    <Compile Include="Models\ExternalLoginListViewModel.cs" />
     <Compile Include="Models\FeedbackViewModel.cs" />
     <Compile Include="Models\FooterViewModel.cs" />
     <Compile Include="Models\HomeViewModel.cs" />
@@ -5123,6 +5132,7 @@
     <Content Include="Assets\admin\libs\Chart.js\bower.json" />
     <None Include="Properties\PublishProfiles\publish-web.pubxml" />
     <None Include="Properties\PublishProfiles\publish-WS.pubxml" />
+    <None Include="Properties\PublishProfiles\publishWS.pubxml" />
     <None Include="Scripts\jquery-3.1.1.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
@@ -5147,6 +5157,8 @@
     <Content Include="Views\Web.config" />
     <Content Include="Views\ShoppingCart\CancelOrder.cshtml" />
     <Content Include="Views\ShoppingCart\ConfirmOrder.cshtml" />
+    <Content Include="Views\Account\_ExternalLoginsListPartial.cshtml" />
+    <Content Include="Views\Account\ExternalLoginConfirmation.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\components\orders\" />

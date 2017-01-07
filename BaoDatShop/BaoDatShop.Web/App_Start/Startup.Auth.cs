@@ -10,6 +10,8 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using BaoDatShop.Data;
 using BaoDatShop.Model.Models;
+using Microsoft.Owin.Security.Facebook;
+using Microsoft.Owin.Security.Google;
 
 [assembly: OwinStartup(typeof(BaoDatShop.Web.App_Start.Startup))]
 
@@ -17,6 +19,8 @@ namespace BaoDatShop.Web.App_Start
 {
     public partial class Startup
     {
+        private string XmlSchemaString;
+
         // For more information on configuring authentication, please visit http://go.microsoft.com/fwlink/?LinkId=301864
         public void ConfigureAuth(IAppBuilder app)
         {
@@ -48,7 +52,7 @@ namespace BaoDatShop.Web.App_Start
                     // This is a security feature which is used when you change a password or add an external login to your account.  
                     OnValidateIdentity = SecurityStampValidator.OnValidateIdentity<ApplicationUserManager, ApplicationUser>(
                         validateInterval: TimeSpan.FromMinutes(30),
-                        regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager))
+                        regenerateIdentity: (manager, user) => user.GenerateUserIdentityAsync(manager, DefaultAuthenticationTypes.ApplicationCookie))
                 }
             });
             app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
@@ -61,16 +65,22 @@ namespace BaoDatShop.Web.App_Start
             //app.UseTwitterAuthentication(
             //   consumerKey: "",
             //   consumerSecret: "");
+            //Customizing FacebookAuthenticationOptions...
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            // Facebook : Create New App
+            // https://developers.facebook.com/apps
+            app.UseFacebookAuthentication(new FacebookAuthenticationOptions
+            {
+                AppId = "1621722118134209",
+                AppSecret = "d4b311074531dae3e628935467686487",
+                Scope = { "email" }
+            });
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "464725721430-o4ldd2i1vpn2mfu9g0b12gncei3vodfp.apps.googleusercontent.com",
+                ClientSecret = "dqgSwrteoOOYqlIRNcuoBnNV"
+            });
         }
         public class AuthorizationServerProvider : OAuthAuthorizationServerProvider
         {
