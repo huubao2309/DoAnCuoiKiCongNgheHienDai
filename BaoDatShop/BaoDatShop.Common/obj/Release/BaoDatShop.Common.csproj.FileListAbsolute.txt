@@ -28,5 +28,6 @@ C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\bin\Release\BaoDatShop.Common.pdb
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\bin\Release\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Release\BaoDatShop.Common.csprojResolveAssemblyReference.cache
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Release\BaoDatShop.Common.dll
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Common\obj\Release\BaoDatShop.Common.pdb

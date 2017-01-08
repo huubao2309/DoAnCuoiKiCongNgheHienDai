@@ -5514,7 +5514,6 @@
     <Content Include="Assets\admin\libs\jquery-ui\composer.json" />
     <Content Include="Assets\admin\libs\jquery-ui\package.json" />
     <Content Include="Assets\admin\libs\jquery-ui\README.md" />
-    <Content Include="Assets\admin\libs\jquery-ui\ui\.DS_Store" />
     <Content Include="Assets\admin\libs\jquery-ui\ui\.jshintrc" />
   </ItemGroup>
   <ItemGroup>

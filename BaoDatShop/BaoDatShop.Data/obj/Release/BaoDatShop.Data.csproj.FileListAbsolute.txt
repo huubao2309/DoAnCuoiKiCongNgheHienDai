@@ -58,7 +58,6 @@ C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.Migrations.ChangeOrderDetail.resources
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.Migrations.AddGroupUser1.resources
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.Migrations.RevenuesStatisticSP.resources
-C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.Migrations.RevenuesStatisticSP1.resources
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.csproj.GenerateResource.Cache
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.dll
 C:\Users\hamin\Desktop\CNMoi\git\DoAnCuoiKiCongNgheHienDai\BaoDatShop\BaoDatShop.Data\obj\Release\BaoDatShop.Data.pdb

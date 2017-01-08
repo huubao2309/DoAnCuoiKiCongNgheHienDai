@@ -14,12 +14,16 @@
         function updateAccount() {
             apiService.put('/api/applicationUser/update', $scope.account, addSuccessed, addFailed);
         }
+
         function loadDetail() {
             apiService.get('/api/applicationUser/detail/' + $stateParams.id, null,
             function (result) {
+
                 $scope.account = result.data;
+                $scope.account.BirthDate = new Date(result.data.BirthDate);
             },
             function (result) {
+
                 notificationService.displayError(result.data);
             });
         }
