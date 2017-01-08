@@ -7,13 +7,13 @@ namespace BaoDatShop.Data.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.1.3-40302")]
-    public sealed partial class RevenuesStatisticSP1 : IMigrationMetadata
+    public sealed partial class RevenuesStatisticSP : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(RevenuesStatisticSP1));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(RevenuesStatisticSP));
         
         string IMigrationMetadata.Id
         {
-            get { return "201612200257021_RevenuesStatisticSP1"; }
+            get { return "201701080425131_RevenuesStatisticSP"; }
         }
         
         string IMigrationMetadata.Source

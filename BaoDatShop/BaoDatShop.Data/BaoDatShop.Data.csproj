@@ -129,13 +129,9 @@
     <Compile Include="Migrations\201612141458219_AddGroupUser1.Designer.cs">
       <DependentUpon>201612141458219_AddGroupUser1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612161542270_RevenuesStatisticSP.cs" />
-    <Compile Include="Migrations\201612161542270_RevenuesStatisticSP.Designer.cs">
-      <DependentUpon>201612161542270_RevenuesStatisticSP.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201612200257021_RevenuesStatisticSP1.cs" />
-    <Compile Include="Migrations\201612200257021_RevenuesStatisticSP1.Designer.cs">
-      <DependentUpon>201612200257021_RevenuesStatisticSP1.cs</DependentUpon>
+    <Compile Include="Migrations\201701080425131_RevenuesStatisticSP.cs" />
+    <Compile Include="Migrations\201701080425131_RevenuesStatisticSP.Designer.cs">
+      <DependentUpon>201701080425131_RevenuesStatisticSP.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -227,11 +223,8 @@
     <EmbeddedResource Include="Migrations\201612141458219_AddGroupUser1.resx">
       <DependentUpon>201612141458219_AddGroupUser1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612161542270_RevenuesStatisticSP.resx">
-      <DependentUpon>201612161542270_RevenuesStatisticSP.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612200257021_RevenuesStatisticSP1.resx">
-      <DependentUpon>201612200257021_RevenuesStatisticSP1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201701080425131_RevenuesStatisticSP.resx">
+      <DependentUpon>201701080425131_RevenuesStatisticSP.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
