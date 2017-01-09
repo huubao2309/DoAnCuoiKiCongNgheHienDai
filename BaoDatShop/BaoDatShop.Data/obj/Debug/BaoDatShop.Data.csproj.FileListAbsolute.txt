@@ -56,7 +56,6 @@ D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migration
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.RenameTableIdentity.resources
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddGroupUser.resources
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.ChangeOrderDetail.resources
-D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.Migrations.AddGroupUser1.resources
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.csproj.GenerateResource.Cache
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.dll
 D:\DoAnCuoiKiCNHD\BaoDatShop\BaoDatShop.Data\obj\Debug\BaoDatShop.Data.pdb

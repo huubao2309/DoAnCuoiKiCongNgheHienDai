@@ -20,7 +20,7 @@
             function (result) {
 
                 $scope.account = result.data;
-                $scope.account.BirthDate = new Date(result.data.BirthDate);
+                $scope.account.BirthDate = new Date(result.data.BirthDay);
             },
             function (result) {
 

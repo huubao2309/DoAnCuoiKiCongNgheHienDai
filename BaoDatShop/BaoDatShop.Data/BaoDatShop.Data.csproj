@@ -125,10 +125,6 @@
     <Compile Include="Migrations\201612091948216_ChangeOrderDetail.Designer.cs">
       <DependentUpon>201612091948216_ChangeOrderDetail.cs</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201612141458219_AddGroupUser1.cs" />
-    <Compile Include="Migrations\201612141458219_AddGroupUser1.Designer.cs">
-      <DependentUpon>201612141458219_AddGroupUser1.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\201701080425131_RevenuesStatisticSP.cs" />
     <Compile Include="Migrations\201701080425131_RevenuesStatisticSP.Designer.cs">
       <DependentUpon>201701080425131_RevenuesStatisticSP.cs</DependentUpon>
@@ -219,9 +215,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201612091948216_ChangeOrderDetail.resx">
       <DependentUpon>201612091948216_ChangeOrderDetail.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201612141458219_AddGroupUser1.resx">
-      <DependentUpon>201612141458219_AddGroupUser1.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201701080425131_RevenuesStatisticSP.resx">
       <DependentUpon>201701080425131_RevenuesStatisticSP.cs</DependentUpon>
